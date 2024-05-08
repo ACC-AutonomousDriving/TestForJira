@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc17660a --dep-file=Appscheduling.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503 -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Configurations -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Appscheduling.src ../Appscheduling.c"
+	.compiler_invocation	"ctc -f cc22124a --dep-file=Appscheduling.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503 -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Configurations -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Appscheduling.src ../Appscheduling.c"
 	.compiler_name		"ctc"
 	;source	'../Appscheduling.c'
 
@@ -12,24 +12,197 @@ $TC16X
 	.align	2
 	
 ; Function AppTask1ms
-.L38:
+.L54:
 AppTask1ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
-.L240:
+.L282:
 	ld.w	d15,[a2]
-.L241:
+.L283:
 	add	d15,#1
 	st.w	[a15],d15
-.L242:
+.L284:
+	movh.a	a15,#@his(Rad_per_Sec)
+	lea	a15,[a15]@los(Rad_per_Sec)
+.L285:
+	movh.a	a2,#@his(Encoder_Ticks)
+	lea	a2,[a2]@los(Encoder_Ticks)
+	ld.w	d15,[a2]
+.L286:
+	movh.a	a2,#@his(prev_Encoder_Ticks)
+	lea	a2,[a2]@los(prev_Encoder_Ticks)
+	ld.w	d0,[a2]
+.L287:
+	sub	d15,d0
+	mov	e4,d15
+.L288:
+	mov	d6,#4719
+	addih	d6,d6,#14979
+	call	calculateSpeed_Rads
+.L289:
+	st.w	[a15],d2
+.L290:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+.L291:
+	mov	d15,#0
+.L292:
+	st.w	[a15],d15
+.L293:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d15,[a15]
+.L294:
+	jge.u	d15,#5,.L2
+.L295:
+	movh.a	a15,#@his(in_Rads)
+	lea	a15,[a15]@los(in_Rads)
+.L296:
+	mov	d15,#0
+.L297:
+	st.w	[a15],d15
+.L298:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d15,[a15]
+	jlt.u	d15,#5,.L4
+.L299:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d0,[a15]
+.L300:
+	mov	d15,#19
+.L301:
+	jlt.u	d15,d0,.L5
+.L302:
+	movh.a	a15,#@his(in_Rads)
+	lea	a15,[a15]@los(in_Rads)
+.L303:
+	movh.a	a2,#@his(time_s)
+	lea	a2,[a2]@los(time_s)
+	ld.bu	d15,[a2]
+.L304:
+	add	d15,#-4
+.L305:
+	mul	d15,d15,#41
+.L306:
+	itof	d15,d15
+.L307:
+	st.w	[a15],d15
+.L308:
+	j	.L6
+.L5:
+.L4:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d0,[a15]
+.L309:
+	mov	d15,#19
+.L310:
+	jge.u	d15,d0,.L7
+.L311:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d0,[a15]
+.L312:
+	mov	d15,#26
+.L313:
+	jlt.u	d15,d0,.L8
+.L314:
+	movh.a	a15,#@his(in_Rads)
+	lea	a15,[a15]@los(in_Rads)
+.L315:
+	mov.u	d15,#36045
+	addih	d15,d15,#17436
+.L316:
+	st.w	[a15],d15
+.L317:
+	j	.L9
+.L8:
+.L7:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d0,[a15]
+.L318:
+	mov	d15,#26
+.L319:
+	jge.u	d15,d0,.L10
+.L320:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	ld.bu	d0,[a15]
+.L321:
+	mov	d15,#41
+.L322:
+	jlt.u	d15,d0,.L11
+.L323:
+	movh.a	a15,#@his(in_Rads)
+	lea	a15,[a15]@los(in_Rads)
+.L324:
+	movh.a	a2,#@his(time_s)
+	lea	a2,[a2]@los(time_s)
+	ld.bu	d15,[a2]
+.L325:
+	rsub	d15,d15,#41
+.L326:
+	mul	d15,d15,#41
+.L327:
+	itof	d15,d15
+.L328:
+	st.w	[a15],d15
+.L11:
+.L10:
+.L9:
+.L6:
+.L3:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+.L329:
+	movh.a	a2,#@his(time_s)
+	lea	a2,[a2]@los(time_s)
+	ld.bu	d4,[a2]
+.L330:
+	movh.a	a2,#@his(in_Rads)
+	lea	a2,[a2]@los(in_Rads)
+	ld.w	d5,[a2]
+.L331:
+	movh.a	a2,#@his(Rad_per_Sec)
+	lea	a2,[a2]@los(Rad_per_Sec)
+	ld.w	d6,[a2]
+	call	Make_Pulse_Generate
+.L332:
+	st.w	[a15],d2
+.L333:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+	ld.w	d15,[a15]
+.L334:
+	mov	d0,#4545
+.L335:
+	mul	d15,d0
+.L336:
+	extr.u	d4,d15,#0,#16
+	call	setDutyCycle
+.L337:
+	movh.a	a15,#@his(prev_Encoder_Ticks)
+	lea	a15,[a15]@los(prev_Encoder_Ticks)
+.L338:
+	movh.a	a2,#@his(Encoder_Ticks)
+	lea	a2,[a2]@los(Encoder_Ticks)
+	ld.w	d15,[a2]
+.L339:
+	st.w	[a15],d15
+.L340:
 	ret
-.L138:
+.L177:
 	
 __AppTask1ms_function_end:
 	.size	AppTask1ms,__AppTask1ms_function_end-AppTask1ms
-.L73:
+.L91:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.AppTask10ms',code,cluster('AppTask10ms')
@@ -37,24 +210,24 @@ __AppTask1ms_function_end:
 	.align	2
 	
 ; Function AppTask10ms
-.L40:
+.L56:
 AppTask10ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
-.L247:
+.L345:
 	ld.w	d15,[a2]4
-.L248:
+.L346:
 	add	d15,#1
 	st.w	[a15]4,d15
-.L249:
+.L347:
 	ret
-.L139:
+.L178:
 	
 __AppTask10ms_function_end:
 	.size	AppTask10ms,__AppTask10ms_function_end-AppTask10ms
-.L78:
+.L96:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.AppTask100ms',code,cluster('AppTask100ms')
@@ -62,24 +235,24 @@ __AppTask10ms_function_end:
 	.align	2
 	
 ; Function AppTask100ms
-.L42:
+.L58:
 AppTask100ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
-.L254:
+.L352:
 	ld.w	d15,[a2]8
-.L255:
+.L353:
 	add	d15,#1
 	st.w	[a15]8,d15
-.L256:
+.L354:
 	ret
-.L140:
+.L179:
 	
 __AppTask100ms_function_end:
 	.size	AppTask100ms,__AppTask100ms_function_end-AppTask100ms
-.L83:
+.L101:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.AppTask1000ms',code,cluster('AppTask1000ms')
@@ -87,43 +260,33 @@ __AppTask100ms_function_end:
 	.align	2
 	
 ; Function AppTask1000ms
-.L44:
+.L60:
 AppTask1000ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
-.L261:
+.L359:
 	ld.w	d15,[a2]12
-.L262:
+.L360:
 	add	d15,#1
 	st.w	[a15]12,d15
-.L263:
-	movh.a	a15,#@his(Rad_per_Sec)
-	lea	a15,[a15]@los(Rad_per_Sec)
-.L264:
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d4,[a2]
-.L265:
-	movh	d5,#16256
-	call	calculateSpeed_Rads
-.L266:
-	st.w	[a15],d2
-.L267:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-.L268:
-	mov	d15,#0
-.L269:
-	st.w	[a15],d15
-.L270:
+.L361:
+	movh.a	a15,#@his(time_s)
+	lea	a15,[a15]@los(time_s)
+	movh.a	a2,#@his(time_s)
+	lea	a2,[a2]@los(time_s)
+	ld.bu	d15,[a2]
+.L362:
+	add	d15,#1
+	st.b	[a15],d15
+.L363:
 	ret
-.L141:
+.L180:
 	
 __AppTask1000ms_function_end:
 	.size	AppTask1000ms,__AppTask1000ms_function_end-AppTask1000ms
-.L88:
+.L106:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.AppTask5000ms',code,cluster('AppTask5000ms')
@@ -131,47 +294,24 @@ __AppTask1000ms_function_end:
 	.align	2
 	
 ; Function AppTask5000ms
-.L46:
+.L62:
 AppTask5000ms:	.type	func
 	movh.a	a15,#@his(stTestCnt)
 	lea	a15,[a15]@los(stTestCnt)
 	movh.a	a2,#@his(stTestCnt)
 	lea	a2,[a2]@los(stTestCnt)
-.L275:
+.L368:
 	ld.w	d15,[a2]16
-.L276:
+.L369:
 	add	d15,#1
 	st.w	[a15]16,d15
-.L277:
-	movh.a	a15,#@his(_tmp)
-	lea	a15,[a15]@los(_tmp)
-	movh.a	a2,#@his(_tmp)
-	lea	a2,[a2]@los(_tmp)
-	ld.bu	d15,[a2]
-.L278:
-	xor	d15,d15,#1
-	st.b	[a15],d15
-.L279:
-	movh.a	a15,#@his(_tmp)
-	lea	a15,[a15]@los(_tmp)
-	ld.bu	d15,[a15]
-.L280:
-	jeq	d15,#0,.L2
-.L281:
-	mov.u	d4,#50000
-	call	setDutyCycle
-.L282:
-	j	.L3
-.L2:
-	mov	d4,#20000
-	call	setDutyCycle
-.L3:
+.L370:
 	ret
-.L142:
+.L181:
 	
 __AppTask5000ms_function_end:
 	.size	AppTask5000ms,__AppTask5000ms_function_end-AppTask5000ms
-.L93:
+.L111:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.AppScheduling',code,cluster('AppScheduling')
@@ -180,97 +320,97 @@ __AppTask5000ms_function_end:
 	
 	.global	AppScheduling
 ; Function AppScheduling
-.L48:
+.L64:
 AppScheduling:	.type	func
 	call	AppNoTask
-.L198:
+.L240:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L199:
+.L241:
 	ld.bu	d15,[a15]
-.L200:
-	jne	d15,#1,.L4
-.L201:
+.L242:
+	jne	d15,#1,.L12
+.L243:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L202:
+.L244:
 	mov	d15,#0
-.L203:
+.L245:
 	st.b	[a15],d15
-.L204:
+.L246:
 	call	AppTask1ms
-.L205:
+.L247:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L206:
+.L248:
 	ld.bu	d15,[a15]1
-.L207:
-	jne	d15,#1,.L5
-.L208:
+.L249:
+	jne	d15,#1,.L13
+.L250:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L209:
+.L251:
 	mov	d15,#0
-.L210:
+.L252:
 	st.b	[a15]1,d15
-.L211:
+.L253:
 	call	AppTask10ms
-.L5:
+.L13:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L212:
+.L254:
 	ld.bu	d15,[a15]2
-.L213:
-	jne	d15,#1,.L6
-.L214:
+.L255:
+	jne	d15,#1,.L14
+.L256:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L215:
+.L257:
 	mov	d15,#0
-.L216:
+.L258:
 	st.b	[a15]2,d15
-.L217:
+.L259:
 	call	AppTask100ms
-.L6:
+.L14:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L218:
+.L260:
 	ld.bu	d15,[a15]3
-.L219:
-	jne	d15,#1,.L7
-.L220:
+.L261:
+	jne	d15,#1,.L15
+.L262:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L221:
+.L263:
 	mov	d15,#0
-.L222:
+.L264:
 	st.b	[a15]3,d15
-.L223:
+.L265:
 	call	AppTask1000ms
-.L7:
+.L15:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L224:
+.L266:
 	ld.bu	d15,[a15]4
-.L225:
-	jne	d15,#1,.L8
-.L226:
+.L267:
+	jne	d15,#1,.L16
+.L268:
 	movh.a	a15,#@his(stSchedulingInfo)
 	lea	a15,[a15]@los(stSchedulingInfo)
-.L227:
+.L269:
 	mov	d15,#0
-.L228:
+.L270:
 	st.b	[a15]4,d15
-.L229:
+.L271:
 	call	AppTask5000ms
-.L8:
-.L4:
+.L16:
+.L12:
 	ret
-.L124:
+.L163:
 	
 __AppScheduling_function_end:
 	.size	AppScheduling,__AppScheduling_function_end-AppScheduling
-.L63:
+.L81:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.AppNoTask',code,cluster('AppNoTask')
@@ -279,190 +419,172 @@ __AppScheduling_function_end:
 	
 	.global	AppNoTask
 ; Function AppNoTask
-.L50:
+.L66:
 AppNoTask:	.type	func
 	movh.a	a15,#61444
 	lea	a15,[a15]@los(0xf003b400)
 	mov	d0,#0
-.L148:
+.L187:
 	ld.w	d15,[a15]36
 	extr.u	d15,d15,d0,#1
-.L287:
-	jeq	d15,#0,.L9
-.L288:
-	mov	d1,#1
-.L185:
-	j	.L10
-.L9:
-	mov	d1,#0
-.L10:
-	j	.L11
-.L11:
+.L375:
+	jeq	d15,#0,.L17
+.L376:
+	mov	d2,#1
+.L225:
+	j	.L18
+.L17:
+	mov	d2,#0
+.L18:
+	j	.L19
+.L19:
 	movh.a	a15,#61444
 	lea	a15,[a15]@los(0xf003b400)
 	mov	d0,#1
-.L166:
+.L203:
 	ld.w	d15,[a15]36
 	extr.u	d15,d15,d0,#1
-.L289:
-	jeq	d15,#0,.L12
-.L290:
-	mov	d15,#1
-.L186:
-	j	.L13
-.L12:
-	mov	d15,#0
-.L13:
-	j	.L14
-.L14:
-	movh.a	a15,#@his(prev_CHA)
-	lea	a15,[a15]@los(prev_CHA)
-	ld.bu	d0,[a15]
-.L155:
-	jeq	d0,d1,.L15
-.L291:
-	jne	d1,#1,.L16
-.L156:
-	jne	d15,#0,.L17
-.L168:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L292:
-	add	d0,#1
-	st.w	[a15],d0
-.L293:
-	j	.L18
-.L17:
-	jne	d15,#1,.L19
-.L169:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L294:
-	add	d0,#-1
-	st.w	[a15],d0
-.L19:
-.L18:
-	j	.L20
-.L16:
-	jne	d1,#0,.L21
-.L157:
-	jne	d15,#1,.L22
-.L170:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L295:
-	add	d0,#1
-	st.w	[a15],d0
-.L296:
-	j	.L23
-.L22:
-	jne	d15,#0,.L24
-.L171:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L297:
-	add	d0,#-1
-	st.w	[a15],d0
-.L24:
-.L23:
-.L21:
+.L377:
+	jeq	d15,#0,.L20
+.L378:
+	mov	d0,#1
+.L226:
+	j	.L21
 .L20:
-.L15:
-	movh.a	a15,#@his(prev_CHB)
-	lea	a15,[a15]@los(prev_CHB)
-	ld.bu	d0,[a15]
-.L172:
-	jeq	d15,d0,.L25
-.L298:
-	jne	d15,#1,.L26
-.L158:
-	jne	d1,#1,.L27
-.L159:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L299:
-	add	d0,#1
-	st.w	[a15],d0
-.L300:
-	j	.L28
-.L27:
-	jne	d1,#0,.L29
-.L160:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L301:
-	add	d0,#-1
-	st.w	[a15],d0
-.L29:
-.L28:
-	j	.L30
-.L26:
-	jne	d15,#0,.L31
-.L161:
-	jne	d1,#0,.L32
-.L162:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L302:
-	add	d0,#1
-	st.w	[a15],d0
-.L303:
-	j	.L33
-.L32:
-	jne	d1,#1,.L34
-.L163:
-	movh.a	a15,#@his(Encoder_Ticks)
-	lea	a15,[a15]@los(Encoder_Ticks)
-	movh.a	a2,#@his(Encoder_Ticks)
-	lea	a2,[a2]@los(Encoder_Ticks)
-	ld.w	d0,[a2]
-.L304:
-	add	d0,#-1
-	st.w	[a15],d0
-.L34:
-.L33:
-.L31:
-.L30:
-.L25:
+	mov	d0,#0
+.L21:
+	j	.L22
+.L22:
 	movh.a	a15,#@his(prev_CHA)
 	lea	a15,[a15]@los(prev_CHA)
-.L164:
-	st.b	[a15],d1
-.L165:
+	ld.bu	d1,[a15]
+.L194:
+	jeq	d1,d2,.L23
+.L379:
+	jne	d2,#1,.L24
+.L195:
+	jeq	d0,#0,.L25
+.L205:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d1,[a15]
+.L380:
+	add	d15,d1,#-1
+.L381:
+	j	.L26
+.L25:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d1,[a15]
+.L382:
+	add	d15,d1,#1
+.L26:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+.L383:
+	st.w	[a15],d15
+.L384:
+	j	.L27
+.L24:
+	jne	d2,#0,.L28
+.L196:
+	jeq	d0,#0,.L29
+.L206:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d1,[a15]
+.L385:
+	add	d15,d1,#1
+.L386:
+	j	.L30
+.L29:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d1,[a15]
+.L387:
+	add	d15,d1,#-1
+.L30:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+.L388:
+	st.w	[a15],d15
+.L28:
+.L27:
+.L23:
 	movh.a	a15,#@his(prev_CHB)
 	lea	a15,[a15]@los(prev_CHB)
-.L173:
-	st.b	[a15],d15
-.L174:
+	ld.bu	d1,[a15]
+.L207:
+	jeq	d1,d0,.L31
+.L389:
+	jne	d0,#1,.L32
+.L197:
+	jeq	d2,#0,.L33
+.L198:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d1,[a15]
+.L390:
+	add	d15,d1,#1
+.L391:
+	j	.L34
+.L33:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d1,[a15]
+.L392:
+	add	d15,d1,#-1
+.L34:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+.L393:
+	st.w	[a15],d15
+.L394:
 	j	.L35
+.L32:
+	jne	d0,#0,.L36
+.L199:
+	jeq	d2,#0,.L37
+.L200:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d15,[a15]
+.L395:
+	add	d15,#-1
+.L396:
+	j	.L38
+.L37:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+	ld.w	d15,[a15]
+.L397:
+	add	d15,#1
+.L38:
+	movh.a	a15,#@his(Encoder_Ticks)
+	lea	a15,[a15]@los(Encoder_Ticks)
+.L398:
+	st.w	[a15],d15
+.L36:
 .L35:
+.L31:
+	movh.a	a15,#@his(prev_CHA)
+	lea	a15,[a15]@los(prev_CHA)
+.L201:
+	st.b	[a15],d2
+.L202:
+	movh.a	a15,#@his(prev_CHB)
+	lea	a15,[a15]@los(prev_CHB)
+.L208:
+	st.b	[a15],d0
+.L209:
+	j	.L39
+.L39:
 	ret
-.L143:
+.L182:
 	
 __AppNoTask_function_end:
 	.size	AppNoTask,__AppNoTask_function_end-AppNoTask
-.L98:
+.L116:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.Encoder_Two_Channel_Init',code,cluster('Encoder_Two_Channel_Init')
@@ -471,30 +593,30 @@ __AppNoTask_function_end:
 	
 	.global	Encoder_Two_Channel_Init
 ; Function Encoder_Two_Channel_Init
-.L52:
+.L68:
 Encoder_Two_Channel_Init:	.type	func
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003b400)
 	mov	d4,#0
-.L234:
+.L276:
 	mov	d5,#16
-.L127:
+.L166:
 	call	IfxPort_setPinMode
-.L128:
+.L167:
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003b400)
 	mov	d4,#1
-.L235:
+.L277:
 	mov	d5,#16
-.L136:
+.L175:
 	call	IfxPort_setPinMode
-.L137:
+.L176:
 	ret
-.L125:
+.L164:
 	
 __Encoder_Two_Channel_Init_function_end:
 	.size	Encoder_Two_Channel_Init,__Encoder_Two_Channel_Init_function_end-Encoder_Two_Channel_Init
-.L68:
+.L86:
 	; End of function
 	
 	.sdecl	'.text.Appscheduling.calculateSpeed_Rads',code,cluster('calculateSpeed_Rads')
@@ -503,26 +625,197 @@ __Encoder_Two_Channel_Init_function_end:
 	
 	.global	calculateSpeed_Rads
 ; Function calculateSpeed_Rads
-.L54:
+.L70:
 calculateSpeed_Rads:	.type	func
+	mov	d8,d6
+.L228:
+	mov	e0,#0
+.L403:
+	ge.u	d15,d4,d0
+	and.eq	d15,d5,d1
+	or.lt	d15,d1,d5
+.L404:
+	jne	d15,#0,.L40
+.L405:
+	mov	e0,#0
+	subx	d0,d0,d4
+	subc	d1,d1,d5
+.L406:
+	mov	e4,d1,d0
+.L40:
 	mov	d15,#2704
-.L187:
+.L229:
 	addih	d15,d15,#15878
-.L309:
-	itof	d0,d4
-.L310:
-	mul.f	d15,d0,d15
-.L188:
-	div.f	d2,d15,d5
-.L189:
-	j	.L36
-.L36:
+.L407:
+	call	__f_lltof
+.L227:
+	mul.f	d15,d2,d15
+.L230:
+	div.f	d2,d15,d8
+.L231:
+	j	.L41
+.L41:
 	ret
-.L176:
+.L211:
 	
 __calculateSpeed_Rads_function_end:
 	.size	calculateSpeed_Rads,__calculateSpeed_Rads_function_end-calculateSpeed_Rads
-.L103:
+.L121:
+	; End of function
+	
+	.sdecl	'.text.Appscheduling.Make_Pulse_Generate',code,cluster('Make_Pulse_Generate')
+	.sect	'.text.Appscheduling.Make_Pulse_Generate'
+	.align	2
+	
+	.global	Make_Pulse_Generate
+; Function Make_Pulse_Generate
+.L72:
+Make_Pulse_Generate:	.type	func
+	jge.u	d4,#5,.L42
+.L412:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+.L413:
+	mov	d15,#0
+.L414:
+	st.w	[a15],d15
+.L415:
+	j	.L43
+.L42:
+	jlt.u	d4,#5,.L44
+.L416:
+	mov	d15,#41
+.L417:
+	jlt.u	d15,d4,.L45
+.L418:
+	movh.a	a15,#@his(error_w)
+	lea	a15,[a15]@los(error_w)
+.L419:
+	sub.f	d15,d5,d6
+.L420:
+	st.w	[a15],d15
+.L421:
+	movh.a	a15,#@his(error_w_int)
+	lea	a15,[a15]@los(error_w_int)
+.L422:
+	sub.f	d15,d5,d6
+.L423:
+	mov	d0,#4719
+	addih	d0,d0,#14979
+.L424:
+	movh.a	a2,#@his(error_w_int_old)
+	lea	a2,[a2]@los(error_w_int_old)
+	ld.w	d1,[a2]
+.L425:
+	madd.f	d15,d1,d15,d0
+.L426:
+	st.w	[a15],d15
+.L427:
+	movh.a	a15,#@his(error_w_int_old)
+	lea	a15,[a15]@los(error_w_int_old)
+.L428:
+	movh.a	a2,#@his(error_w_int)
+	lea	a2,[a2]@los(error_w_int)
+	ld.w	d15,[a2]
+.L429:
+	st.w	[a15],d15
+.L430:
+	movh.a	a15,#@his(error_w_int)
+	lea	a15,[a15]@los(error_w_int)
+	ld.w	d15,[a15]
+.L431:
+	movh	d0,#16672
+.L432:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L433:
+	jeq	d15,#0,.L46
+.L434:
+	movh.a	a15,#@his(error_w_int)
+	lea	a15,[a15]@los(error_w_int)
+.L435:
+	movh	d15,#16672
+.L436:
+	st.w	[a15],d15
+.L46:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+.L437:
+	sub.f	d15,d5,d6
+.L438:
+	movh	d0,#16512
+.L439:
+	movh.a	a2,#@his(error_w_int)
+	lea	a2,[a2]@los(error_w_int)
+	ld.w	d1,[a2]
+.L440:
+	mov.u	d2,#52429
+	addih	d2,d2,#15820
+.L441:
+	mul.f	d1,d1,d2
+.L442:
+	madd.f	d15,d1,d15,d0
+	ftouz	d15,d15
+.L443:
+	st.w	[a15],d15
+.L444:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+	ld.w	d15,[a15]
+.L445:
+	jlt.u	d15,#12,.L47
+.L446:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+.L447:
+	mov	d15,#11
+.L448:
+	st.w	[a15],d15
+.L449:
+	j	.L48
+.L47:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+	ld.w	d15,[a15]
+.L450:
+	jge.u	d15,#0,.L49
+.L451:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+.L452:
+	mov	d15,#0
+.L453:
+	st.w	[a15],d15
+.L49:
+.L48:
+	j	.L50
+.L45:
+.L44:
+	mov	d15,#41
+.L454:
+	jge.u	d15,d4,.L51
+.L455:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+.L456:
+	mov	d15,#0
+.L457:
+	st.w	[a15],d15
+.L51:
+.L50:
+.L43:
+	movh.a	a15,#@his(Vin)
+	lea	a15,[a15]@los(Vin)
+	ld.w	d2,[a15]
+.L458:
+	j	.L52
+.L52:
+	ret
+.L219:
+	
+__Make_Pulse_Generate_function_end:
+	.size	Make_Pulse_Generate,__Make_Pulse_Generate_function_end-Make_Pulse_Generate
+.L126:
 	; End of function
 	
 	.sdecl	'.data.Appscheduling.Encoder_Ticks',data,cluster('Encoder_Ticks')
@@ -531,6 +824,13 @@ __calculateSpeed_Rads_function_end:
 	.align	2
 Encoder_Ticks:	.type	object
 	.size	Encoder_Ticks,4
+	.space	4
+	.sdecl	'.data.Appscheduling.prev_Encoder_Ticks',data,cluster('prev_Encoder_Ticks')
+	.sect	'.data.Appscheduling.prev_Encoder_Ticks'
+	.global	prev_Encoder_Ticks
+	.align	2
+prev_Encoder_Ticks:	.type	object
+	.size	prev_Encoder_Ticks,4
 	.space	4
 	.sdecl	'.data.Appscheduling.radiansPerTick',data,cluster('radiansPerTick')
 	.sect	'.data.Appscheduling.radiansPerTick'
@@ -560,6 +860,54 @@ speedRadPerSec:	.type	object
 Rad_per_Sec:	.type	object
 	.size	Rad_per_Sec,4
 	.space	4
+	.sdecl	'.data.Appscheduling.time_s',data,cluster('time_s')
+	.sect	'.data.Appscheduling.time_s'
+	.global	time_s
+time_s:	.type	object
+	.size	time_s,1
+	.space	1
+	.sdecl	'.data.Appscheduling.Vin',data,cluster('Vin')
+	.sect	'.data.Appscheduling.Vin'
+	.global	Vin
+	.align	2
+Vin:	.type	object
+	.size	Vin,4
+	.space	4
+	.sdecl	'.data.Appscheduling.error_w',data,cluster('error_w')
+	.sect	'.data.Appscheduling.error_w'
+	.global	error_w
+	.align	2
+error_w:	.type	object
+	.size	error_w,4
+	.space	4
+	.sdecl	'.data.Appscheduling.error_w_int',data,cluster('error_w_int')
+	.sect	'.data.Appscheduling.error_w_int'
+	.global	error_w_int
+	.align	2
+error_w_int:	.type	object
+	.size	error_w_int,4
+	.space	4
+	.sdecl	'.data.Appscheduling.error_w_int_old',data,cluster('error_w_int_old')
+	.sect	'.data.Appscheduling.error_w_int_old'
+	.global	error_w_int_old
+	.align	2
+error_w_int_old:	.type	object
+	.size	error_w_int_old,4
+	.space	4
+	.sdecl	'.data.Appscheduling.w_ref',data,cluster('w_ref')
+	.sect	'.data.Appscheduling.w_ref'
+	.global	w_ref
+	.align	2
+w_ref:	.type	object
+	.size	w_ref,4
+	.space	4
+	.sdecl	'.data.Appscheduling.w',data,cluster('w')
+	.sect	'.data.Appscheduling.w'
+	.global	w
+	.align	2
+w:	.type	object
+	.size	w,4
+	.space	4
 	.sdecl	'.bss.Appscheduling.stTestCnt',data,cluster('stTestCnt')
 	.sect	'.bss.Appscheduling.stTestCnt'
 	.global	stTestCnt
@@ -585,15 +933,17 @@ prev_CHA:	.type	object
 prev_CHB:	.type	object
 	.size	prev_CHB,1
 	.space	1
-	.sdecl	'.data.Appscheduling.prev_Encoder_Ticks',data,cluster('prev_Encoder_Ticks')
-	.sect	'.data.Appscheduling.prev_Encoder_Ticks'
-	.global	prev_Encoder_Ticks
+	.sdecl	'.data.Appscheduling.in_Rads',data,cluster('in_Rads')
+	.sect	'.data.Appscheduling.in_Rads'
+	.global	in_Rads
 	.align	2
-prev_Encoder_Ticks:	.type	object
-	.size	prev_Encoder_Ticks,4
+in_Rads:	.type	object
+	.size	in_Rads,4
 	.space	4
-	.calls	'AppTask1000ms','calculateSpeed_Rads'
-	.calls	'AppTask5000ms','setDutyCycle'
+	.calls	'calculateSpeed_Rads','__f_lltof'
+	.calls	'AppTask1ms','calculateSpeed_Rads'
+	.calls	'AppTask1ms','Make_Pulse_Generate'
+	.calls	'AppTask1ms','setDutyCycle'
 	.calls	'AppScheduling','AppNoTask'
 	.calls	'AppScheduling','AppTask1ms'
 	.calls	'AppScheduling','AppTask10ms'
@@ -609,23 +959,25 @@ prev_Encoder_Ticks:	.type	object
 	.calls	'AppScheduling','',0
 	.calls	'AppNoTask','',0
 	.calls	'Encoder_Two_Channel_Init','',0
+	.calls	'calculateSpeed_Rads','',0
 	.extern	IfxPort_setPinMode
 	.extern	stSchedulingInfo
 	.extern	setDutyCycle
-	.calls	'calculateSpeed_Rads','',0
+	.extern	__f_lltof
+	.calls	'Make_Pulse_Generate','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L56:
+.L74:
 	.word	94094
 	.half	3
-	.word	.L57
+	.word	.L75
 	.byte	4
-.L55:
+.L73:
 	.byte	1
 	.byte	'../Appscheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L58
+	.word	.L76
 	.byte	2,1,1,3
 	.word	195
 	.byte	4
@@ -634,7 +986,7 @@ prev_Encoder_Ticks:	.type	object
 	.word	198
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L175:
+.L210:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
@@ -661,9 +1013,7 @@ prev_Encoder_Ticks:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	341
 	.byte	6,0,7
-	.byte	'unsigned int',0,4,7
-.L177:
-	.byte	7
+	.byte	'unsigned int',0,4,7,7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON0_Bits',0,4,233,8,16,4,11
@@ -688,7 +1038,7 @@ prev_Encoder_Ticks:	.type	object
 	.byte	'B',0
 	.word	498
 	.byte	4,2,35,0,0
-.L144:
+.L183:
 	.byte	7
 	.byte	'unsigned char',0,1,8,7
 	.byte	'unsigned short int',0,2,7,10
@@ -826,7 +1176,7 @@ prev_Encoder_Ticks:	.type	object
 	.byte	'enabled',0,5,167,7,50
 	.word	634
 	.byte	6,0
-.L184:
+.L218:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,5,160,6,19
@@ -2190,41 +2540,41 @@ prev_Encoder_Ticks:	.type	object
 	.word	9079
 	.byte	3
 	.word	9682
-.L147:
+.L186:
 	.byte	8
 	.byte	'IfxPort_getPinState',0,3,7,170,4,20
 	.word	634
 	.byte	1,1
-.L149:
+.L188:
 	.byte	5
 	.byte	'port',0,7,170,4,47
 	.word	9687
-.L151:
+.L190:
 	.byte	5
 	.byte	'pinIndex',0,7,170,4,59
 	.word	634
-.L153:
+.L192:
 	.byte	6,0,15,7,80,9,1,16
 	.byte	'IfxPort_InputMode_undefined',0,127,16
 	.byte	'IfxPort_InputMode_noPullDevice',0,0,16
 	.byte	'IfxPort_InputMode_pullDown',0,8,16
 	.byte	'IfxPort_InputMode_pullUp',0,16,0
-.L126:
+.L165:
 	.byte	4
 	.byte	'IfxPort_setPinModeInput',0,3,7,194,4,17,1,1
-.L129:
+.L168:
 	.byte	5
 	.byte	'port',0,7,194,4,48
 	.word	9687
-.L131:
+.L170:
 	.byte	5
 	.byte	'pinIndex',0,7,194,4,60
 	.word	634
-.L133:
+.L172:
 	.byte	5
 	.byte	'mode',0,7,194,4,88
 	.word	9758
-.L135:
+.L174:
 	.byte	6,0,15,7,170,1,9,4,16
 	.byte	'IfxPort_State_notChanged',0,0,16
 	.byte	'IfxPort_State_high',0,1,16
@@ -2885,7 +3235,9 @@ prev_Encoder_Ticks:	.type	object
 	.byte	1,1,5
 	.byte	'stm',0,12,222,4,44
 	.word	13998
-	.byte	6,0,7
+	.byte	6,0
+.L212:
+	.byte	7
 	.byte	'long long int',0,8,5,8
 	.byte	'IfxStm_now',0,3,12,223,5,19
 	.word	14134
@@ -3144,7 +3496,7 @@ prev_Encoder_Ticks:	.type	object
 	.byte	0,25
 	.word	14177
 	.byte	0,0,6,0,0,28
-	.byte	'setDutyCycle',0,14,113,19
+	.byte	'setDutyCycle',0,14,123,5
 	.word	475
 	.byte	1,1,1,7
 	.byte	'short int',0,2,5,29
@@ -3179,6 +3531,7 @@ prev_Encoder_Ticks:	.type	object
 	.byte	29
 	.byte	'sint16',0,15,129,1,29
 	.word	15684
+.L223:
 	.byte	7
 	.byte	'long int',0,4,5,29
 	.byte	'sint32',0,15,134,1,29
@@ -14466,8 +14819,8 @@ prev_Encoder_Ticks:	.type	object
 	.byte	'stSchedulingInfo',0,22,65,23
 	.word	93741
 	.byte	1,1
-.L183:
-	.byte	31,14,52,9,20,13
+.L224:
+	.byte	31,14,58,9,20,13
 	.byte	'u32nuCnt1ms',0
 	.word	1717
 	.byte	4,2,35,0,13
@@ -14483,12 +14836,12 @@ prev_Encoder_Ticks:	.type	object
 	.byte	'u32nuCnt5000ms',0
 	.word	1717
 	.byte	4,2,35,16,0,29
-	.byte	'TestCnt',0,14,59,2
+	.byte	'TestCnt',0,14,65,2
 	.word	93961
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L57:
+.L75:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -14501,12 +14854,12 @@ prev_Encoder_Ticks:	.type	object
 	.byte	0,0,32,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L58:
-	.word	.L191-.L190
-.L190:
+.L76:
+	.word	.L233-.L232
+.L232:
 	.half	3
-	.word	.L193-.L192
-.L192:
+	.word	.L235-.L234
+.L234:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std',0
@@ -14544,232 +14897,35 @@ prev_Encoder_Ticks:	.type	object
 	.byte	0,0,0
 	.byte	'IfxCbs_regdef.h',0,1,0,0
 	.byte	'..\\Driver_Stm.h',0,0,0,0,0
-.L193:
-.L191:
+.L235:
+.L233:
 	.sdecl	'.debug_info',debug,cluster('AppScheduling')
 	.sect	'.debug_info'
-.L59:
-	.word	244
+.L77:
+	.word	245
 	.half	3
-	.word	.L60
+	.word	.L78
 	.byte	4,1
 	.byte	'../Appscheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L62,.L61
+	.word	.L80,.L79
 	.byte	2
-	.word	.L55
+	.word	.L73
 	.byte	3
-	.byte	'AppScheduling',0,1,118,6,1,1,1
-	.word	.L48,.L124,.L47
+	.byte	'AppScheduling',0,1,157,1,6,1,1,1
+	.word	.L64,.L163,.L63
 	.byte	4
-	.word	.L48,.L124
+	.word	.L64,.L163
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('AppScheduling')
 	.sect	'.debug_abbrev'
-.L60:
+.L78:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('AppScheduling')
 	.sect	'.debug_line'
-.L61:
-	.word	.L195-.L194
-.L194:
-	.half	3
-	.word	.L197-.L196
-.L196:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../Appscheduling.c',0,0,0,0,0
-.L197:
-	.byte	5,14,7,0,5,2
-	.word	.L48
-	.byte	3,246,0,1,5,8,9
-	.half	.L198-.L48
-	.byte	3,2,1,5,24,9
-	.half	.L199-.L198
-	.byte	1,5,5,9
-	.half	.L200-.L199
-	.byte	1,5,9,7,9
-	.half	.L201-.L200
-	.byte	3,1,1,5,50,9
-	.half	.L202-.L201
-	.byte	1,5,48,9
-	.half	.L203-.L202
-	.byte	1,5,19,9
-	.half	.L204-.L203
-	.byte	3,1,1,5,12,9
-	.half	.L205-.L204
-	.byte	3,2,1,5,28,9
-	.half	.L206-.L205
-	.byte	1,5,9,9
-	.half	.L207-.L206
-	.byte	1,5,13,7,9
-	.half	.L208-.L207
-	.byte	3,1,1,5,55,9
-	.half	.L209-.L208
-	.byte	1,5,53,9
-	.half	.L210-.L209
-	.byte	1,5,24,9
-	.half	.L211-.L210
-	.byte	3,1,1,5,12,9
-	.half	.L5-.L211
-	.byte	3,3,1,5,28,9
-	.half	.L212-.L5
-	.byte	1,5,9,9
-	.half	.L213-.L212
-	.byte	1,5,13,7,9
-	.half	.L214-.L213
-	.byte	3,1,1,5,56,9
-	.half	.L215-.L214
-	.byte	1,5,54,9
-	.half	.L216-.L215
-	.byte	1,5,25,9
-	.half	.L217-.L216
-	.byte	3,1,1,5,12,9
-	.half	.L6-.L217
-	.byte	3,3,1,5,28,9
-	.half	.L218-.L6
-	.byte	1,5,9,9
-	.half	.L219-.L218
-	.byte	1,5,13,7,9
-	.half	.L220-.L219
-	.byte	3,1,1,5,57,9
-	.half	.L221-.L220
-	.byte	1,5,55,9
-	.half	.L222-.L221
-	.byte	1,5,26,9
-	.half	.L223-.L222
-	.byte	3,1,1,5,12,9
-	.half	.L7-.L223
-	.byte	3,3,1,5,28,9
-	.half	.L224-.L7
-	.byte	1,5,9,9
-	.half	.L225-.L224
-	.byte	1,5,13,7,9
-	.half	.L226-.L225
-	.byte	3,1,1,5,57,9
-	.half	.L227-.L226
-	.byte	1,5,55,9
-	.half	.L228-.L227
-	.byte	1,5,26,9
-	.half	.L229-.L228
-	.byte	3,1,1,5,1,9
-	.half	.L4-.L229
-	.byte	3,4,1,7,9
-	.half	.L63-.L4
-	.byte	0,1,1
-.L195:
-	.sdecl	'.debug_ranges',debug,cluster('AppScheduling')
-	.sect	'.debug_ranges'
-.L62:
-	.word	-1,.L48,0,.L63-.L48,0,0
-	.sdecl	'.debug_info',debug,cluster('Encoder_Two_Channel_Init')
-	.sect	'.debug_info'
-.L64:
-	.word	365
-	.half	3
-	.word	.L65
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L67,.L66
-	.byte	2
-	.word	.L55
-	.byte	3
-	.byte	'Encoder_Two_Channel_Init',0,1,204,1,6,1,1,1
-	.word	.L52,.L125,.L51
-	.byte	4
-	.word	.L52,.L125
-	.byte	5
-	.word	.L126,.L127,.L128
-	.byte	6
-	.word	.L129,.L130
-	.byte	6
-	.word	.L131,.L132
-	.byte	6
-	.word	.L133,.L134
-	.byte	7
-	.word	.L135,.L127,.L128
-	.byte	0,5
-	.word	.L126,.L136,.L137
-	.byte	6
-	.word	.L129,.L130
-	.byte	6
-	.word	.L131,.L132
-	.byte	6
-	.word	.L133,.L134
-	.byte	7
-	.word	.L135,.L136,.L137
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Two_Channel_Init')
-	.sect	'.debug_abbrev'
-.L65:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
-	.byte	0,49,16,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Encoder_Two_Channel_Init')
-	.sect	'.debug_line'
-.L66:
-	.word	.L231-.L230
-.L230:
-	.half	3
-	.word	.L233-.L232
-.L232:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../Appscheduling.c',0,0,0,0
-	.byte	'C:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
-	.byte	0,0,0,0
-.L233:
-	.byte	5,29,7,0,5,2
-	.word	.L52
-	.byte	3,204,1,1,5,35,9
-	.half	.L234-.L52
-	.byte	1,4,2,5,40,9
-	.half	.L127-.L234
-	.byte	3,247,2,1,4,1,5,29,9
-	.half	.L128-.L127
-	.byte	3,138,125,1,5,35,9
-	.half	.L235-.L128
-	.byte	1,4,2,5,40,9
-	.half	.L136-.L235
-	.byte	3,246,2,1,4,1,5,1,9
-	.half	.L137-.L136
-	.byte	3,139,125,1,7,9
-	.half	.L68-.L137
-	.byte	0,1,1
-.L231:
-	.sdecl	'.debug_ranges',debug,cluster('Encoder_Two_Channel_Init')
-	.sect	'.debug_ranges'
-.L67:
-	.word	-1,.L52,0,.L68-.L52,0,0
-	.sdecl	'.debug_info',debug,cluster('AppTask1ms')
-	.sect	'.debug_info'
-.L69:
-	.word	240
-	.half	3
-	.word	.L70
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L72,.L71
-	.byte	2
-	.word	.L55
-	.byte	3
-	.byte	'AppTask1ms',0,1,95,13,1,1
-	.word	.L38,.L138,.L37
-	.byte	4
-	.word	.L38,.L138
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('AppTask1ms')
-	.sect	'.debug_abbrev'
-.L70:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('AppTask1ms')
-	.sect	'.debug_line'
-.L71:
+.L79:
 	.word	.L237-.L236
 .L236:
 	.half	3
@@ -14778,981 +14934,1642 @@ prev_Encoder_Ticks:	.type	object
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Appscheduling.c',0,0,0,0,0
 .L239:
-	.byte	5,5,7,0,5,2
-	.word	.L38
-	.byte	3,223,0,1,5,14,9
-	.half	.L240-.L38
-	.byte	1,5,26,9
+	.byte	5,14,7,0,5,2
+	.word	.L64
+	.byte	3,157,1,1,5,8,9
+	.half	.L240-.L64
+	.byte	3,2,1,5,24,9
 	.half	.L241-.L240
-	.byte	1,5,1,9
+	.byte	1,5,5,9
 	.half	.L242-.L241
-	.byte	3,1,1,7,9
-	.half	.L73-.L242
+	.byte	1,5,9,7,9
+	.half	.L243-.L242
+	.byte	3,1,1,5,50,9
+	.half	.L244-.L243
+	.byte	1,5,48,9
+	.half	.L245-.L244
+	.byte	1,5,19,9
+	.half	.L246-.L245
+	.byte	3,1,1,5,12,9
+	.half	.L247-.L246
+	.byte	3,2,1,5,28,9
+	.half	.L248-.L247
+	.byte	1,5,9,9
+	.half	.L249-.L248
+	.byte	1,5,13,7,9
+	.half	.L250-.L249
+	.byte	3,1,1,5,55,9
+	.half	.L251-.L250
+	.byte	1,5,53,9
+	.half	.L252-.L251
+	.byte	1,5,24,9
+	.half	.L253-.L252
+	.byte	3,1,1,5,12,9
+	.half	.L13-.L253
+	.byte	3,3,1,5,28,9
+	.half	.L254-.L13
+	.byte	1,5,9,9
+	.half	.L255-.L254
+	.byte	1,5,13,7,9
+	.half	.L256-.L255
+	.byte	3,1,1,5,56,9
+	.half	.L257-.L256
+	.byte	1,5,54,9
+	.half	.L258-.L257
+	.byte	1,5,25,9
+	.half	.L259-.L258
+	.byte	3,1,1,5,12,9
+	.half	.L14-.L259
+	.byte	3,3,1,5,28,9
+	.half	.L260-.L14
+	.byte	1,5,9,9
+	.half	.L261-.L260
+	.byte	1,5,13,7,9
+	.half	.L262-.L261
+	.byte	3,1,1,5,57,9
+	.half	.L263-.L262
+	.byte	1,5,55,9
+	.half	.L264-.L263
+	.byte	1,5,26,9
+	.half	.L265-.L264
+	.byte	3,1,1,5,12,9
+	.half	.L15-.L265
+	.byte	3,3,1,5,28,9
+	.half	.L266-.L15
+	.byte	1,5,9,9
+	.half	.L267-.L266
+	.byte	1,5,13,7,9
+	.half	.L268-.L267
+	.byte	3,1,1,5,57,9
+	.half	.L269-.L268
+	.byte	1,5,55,9
+	.half	.L270-.L269
+	.byte	1,5,26,9
+	.half	.L271-.L270
+	.byte	3,1,1,5,1,9
+	.half	.L12-.L271
+	.byte	3,4,1,7,9
+	.half	.L81-.L12
 	.byte	0,1,1
 .L237:
-	.sdecl	'.debug_ranges',debug,cluster('AppTask1ms')
+	.sdecl	'.debug_ranges',debug,cluster('AppScheduling')
 	.sect	'.debug_ranges'
-.L72:
-	.word	-1,.L38,0,.L73-.L38,0,0
-	.sdecl	'.debug_info',debug,cluster('AppTask10ms')
-	.sect	'.debug_info'
-.L74:
-	.word	241
-	.half	3
-	.word	.L75
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L77,.L76
-	.byte	2
-	.word	.L55
-	.byte	3
-	.byte	'AppTask10ms',0,1,98,13,1,1
-	.word	.L40,.L139,.L39
-	.byte	4
-	.word	.L40,.L139
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('AppTask10ms')
-	.sect	'.debug_abbrev'
-.L75:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('AppTask10ms')
-	.sect	'.debug_line'
-.L76:
-	.word	.L244-.L243
-.L243:
-	.half	3
-	.word	.L246-.L245
-.L245:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../Appscheduling.c',0,0,0,0,0
-.L246:
-	.byte	5,5,7,0,5,2
-	.word	.L40
-	.byte	3,226,0,1,5,14,9
-	.half	.L247-.L40
-	.byte	1,5,27,9
-	.half	.L248-.L247
-	.byte	1,5,1,9
-	.half	.L249-.L248
-	.byte	3,1,1,7,9
-	.half	.L78-.L249
-	.byte	0,1,1
-.L244:
-	.sdecl	'.debug_ranges',debug,cluster('AppTask10ms')
-	.sect	'.debug_ranges'
-.L77:
-	.word	-1,.L40,0,.L78-.L40,0,0
-	.sdecl	'.debug_info',debug,cluster('AppTask100ms')
-	.sect	'.debug_info'
-.L79:
-	.word	242
-	.half	3
-	.word	.L80
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L82,.L81
-	.byte	2
-	.word	.L55
-	.byte	3
-	.byte	'AppTask100ms',0,1,101,13,1,1
-	.word	.L42,.L140,.L41
-	.byte	4
-	.word	.L42,.L140
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('AppTask100ms')
-	.sect	'.debug_abbrev'
 .L80:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('AppTask100ms')
-	.sect	'.debug_line'
-.L81:
-	.word	.L251-.L250
-.L250:
-	.half	3
-	.word	.L253-.L252
-.L252:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../Appscheduling.c',0,0,0,0,0
-.L253:
-	.byte	5,5,7,0,5,2
-	.word	.L42
-	.byte	3,229,0,1,5,14,9
-	.half	.L254-.L42
-	.byte	1,5,28,9
-	.half	.L255-.L254
-	.byte	1,5,1,9
-	.half	.L256-.L255
-	.byte	3,2,1,7,9
-	.half	.L83-.L256
-	.byte	0,1,1
-.L251:
-	.sdecl	'.debug_ranges',debug,cluster('AppTask100ms')
-	.sect	'.debug_ranges'
+	.word	-1,.L64,0,.L81-.L64,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Two_Channel_Init')
+	.sect	'.debug_info'
 .L82:
-	.word	-1,.L42,0,.L83-.L42,0,0
-	.sdecl	'.debug_info',debug,cluster('AppTask1000ms')
-	.sect	'.debug_info'
-.L84:
-	.word	243
+	.word	365
 	.half	3
-	.word	.L85
+	.word	.L83
 	.byte	4,1
 	.byte	'../Appscheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L87,.L86
+	.word	.L85,.L84
 	.byte	2
-	.word	.L55
+	.word	.L73
 	.byte	3
-	.byte	'AppTask1000ms',0,1,105,13,1,1
-	.word	.L44,.L141,.L43
+	.byte	'Encoder_Two_Channel_Init',0,1,240,1,6,1,1,1
+	.word	.L68,.L164,.L67
 	.byte	4
-	.word	.L44,.L141
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('AppTask1000ms')
-	.sect	'.debug_abbrev'
-.L85:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('AppTask1000ms')
-	.sect	'.debug_line'
-.L86:
-	.word	.L258-.L257
-.L257:
-	.half	3
-	.word	.L260-.L259
-.L259:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../Appscheduling.c',0,0,0,0,0
-.L260:
-	.byte	5,5,7,0,5,2
-	.word	.L44
-	.byte	3,233,0,1,5,14,9
-	.half	.L261-.L44
-	.byte	1,5,29,9
-	.half	.L262-.L261
-	.byte	1,5,5,9
-	.half	.L263-.L262
-	.byte	3,2,1,5,39,9
-	.half	.L264-.L263
-	.byte	1,5,54,9
-	.half	.L265-.L264
-	.byte	1,5,17,9
-	.half	.L266-.L265
-	.byte	1,5,5,9
-	.half	.L267-.L266
-	.byte	3,1,1,5,21,9
-	.half	.L268-.L267
-	.byte	1,5,19,9
-	.half	.L269-.L268
-	.byte	1,5,1,9
-	.half	.L270-.L269
-	.byte	3,1,1,7,9
-	.half	.L88-.L270
-	.byte	0,1,1
-.L258:
-	.sdecl	'.debug_ranges',debug,cluster('AppTask1000ms')
-	.sect	'.debug_ranges'
-.L87:
-	.word	-1,.L44,0,.L88-.L44,0,0
-	.sdecl	'.debug_info',debug,cluster('AppTask5000ms')
-	.sect	'.debug_info'
-.L89:
-	.word	243
-	.half	3
-	.word	.L90
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L92,.L91
-	.byte	2
-	.word	.L55
-	.byte	3
-	.byte	'AppTask5000ms',0,1,111,13,1,1
-	.word	.L46,.L142,.L45
-	.byte	4
-	.word	.L46,.L142
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('AppTask5000ms')
-	.sect	'.debug_abbrev'
-.L90:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('AppTask5000ms')
-	.sect	'.debug_line'
-.L91:
-	.word	.L272-.L271
-.L271:
-	.half	3
-	.word	.L274-.L273
-.L273:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../Appscheduling.c',0,0,0,0,0
-.L274:
-	.byte	5,5,7,0,5,2
-	.word	.L46
-	.byte	3,239,0,1,5,14,9
-	.half	.L275-.L46
-	.byte	1,5,29,9
-	.half	.L276-.L275
-	.byte	1,5,8,9
-	.half	.L277-.L276
-	.byte	3,1,1,5,13,9
-	.half	.L278-.L277
-	.byte	1,5,8,9
-	.half	.L279-.L278
-	.byte	1,5,5,9
-	.half	.L280-.L279
-	.byte	1,5,32,7,9
-	.half	.L281-.L280
-	.byte	1,5,38,9
-	.half	.L282-.L281
-	.byte	1,5,23,9
-	.half	.L2-.L282
-	.byte	3,1,1,5,1,9
-	.half	.L3-.L2
-	.byte	3,2,1,7,9
-	.half	.L93-.L3
-	.byte	0,1,1
-.L272:
-	.sdecl	'.debug_ranges',debug,cluster('AppTask5000ms')
-	.sect	'.debug_ranges'
-.L92:
-	.word	-1,.L46,0,.L93-.L46,0,0
-	.sdecl	'.debug_info',debug,cluster('AppNoTask')
-	.sect	'.debug_info'
-.L94:
-	.word	824
-	.half	3
-	.word	.L95
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L97,.L96
-	.byte	2
-	.word	.L55
-	.byte	3
-	.byte	'AppNoTask',0,1,148,1,6,1,1,1
-	.word	.L50,.L143,.L49
-	.byte	4
-	.word	.L50,.L143
+	.word	.L68,.L164
 	.byte	5
-	.byte	'CH_A_cur_val',0,1,149,1,11
-	.word	.L144,.L145
-	.byte	5
-	.byte	'CH_B_cur_val',0,1,150,1,11
-	.word	.L144,.L146
+	.word	.L165,.L166,.L167
 	.byte	6
-	.word	.L147,.L148,.L11
+	.word	.L168,.L169
+	.byte	6
+	.word	.L170,.L171
+	.byte	6
+	.word	.L172,.L173
 	.byte	7
-	.word	.L149,.L150
+	.word	.L174,.L166,.L167
+	.byte	0,5
+	.word	.L165,.L175,.L176
+	.byte	6
+	.word	.L168,.L169
+	.byte	6
+	.word	.L170,.L171
+	.byte	6
+	.word	.L172,.L173
 	.byte	7
-	.word	.L151,.L152
-	.byte	8
-	.word	.L153,.L154
-	.byte	0,6
-	.word	.L147,.L166,.L14
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	8
-	.word	.L153,.L167
-	.byte	0,6
-	.word	.L147,.L155,.L156
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L156,.L168
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L17,.L169
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L16,.L157
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L157,.L170
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L22,.L171
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L172,.L158
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L158,.L159
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L27,.L160
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L26,.L161
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L161,.L162
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L32,.L163
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L164,.L165
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
-	.byte	0,6
-	.word	.L147,.L173,.L174
-	.byte	7
-	.word	.L149,.L150
-	.byte	7
-	.word	.L151,.L152
+	.word	.L174,.L175,.L176
 	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('AppNoTask')
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Two_Channel_Init')
 	.sect	'.debug_abbrev'
-.L95:
+.L83:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,29,1
-	.byte	49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,0,49,16,85,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('AppNoTask')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
+	.byte	0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Encoder_Two_Channel_Init')
 	.sect	'.debug_line'
-.L96:
-	.word	.L284-.L283
-.L283:
+.L84:
+	.word	.L273-.L272
+.L272:
 	.half	3
-	.word	.L286-.L285
-.L285:
+	.word	.L275-.L274
+.L274:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Appscheduling.c',0,0,0,0
 	.byte	'C:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
 	.byte	0,0,0,0
-.L286:
-	.byte	5,46,7,0,5,2
-	.word	.L50
-	.byte	3,148,1,1,4,2,5,13,9
-	.half	.L148-.L50
-	.byte	3,151,3,1,5,12,9
-	.half	.L287-.L148
-	.byte	1,5,51,7,9
-	.half	.L288-.L287
-	.byte	1,5,58,9
-	.half	.L185-.L288
-	.byte	1,5,51,9
-	.half	.L9-.L185
-	.byte	1,5,5,9
-	.half	.L10-.L9
-	.byte	1,4,1,5,46,9
-	.half	.L11-.L10
-	.byte	3,234,124,1,4,2,5,13,9
-	.half	.L166-.L11
-	.byte	3,150,3,1,5,12,9
-	.half	.L289-.L166
-	.byte	1,5,51,7,9
-	.half	.L290-.L289
-	.byte	1,5,58,9
-	.half	.L186-.L290
-	.byte	1,5,51,9
-	.half	.L12-.L186
-	.byte	1,5,5,9
-	.half	.L13-.L12
-	.byte	1,4,1,5,8,9
-	.half	.L14-.L13
-	.byte	3,244,124,1,5,5,9
-	.half	.L155-.L14
-	.byte	1,5,9,7,9
-	.half	.L291-.L155
-	.byte	3,1,1,5,13,7,9
-	.half	.L156-.L291
-	.byte	3,1,1,5,17,7,9
-	.half	.L168-.L156
-	.byte	3,1,1,5,30,9
-	.half	.L292-.L168
-	.byte	1,5,32,9
-	.half	.L293-.L292
-	.byte	1,5,18,9
-	.half	.L17-.L293
-	.byte	3,2,1,5,17,7,9
-	.half	.L169-.L17
-	.byte	3,1,1,5,30,9
-	.half	.L294-.L169
-	.byte	1,5,13,9
-	.half	.L18-.L294
-	.byte	3,127,1,5,14,9
-	.half	.L16-.L18
-	.byte	3,4,1,5,13,7,9
-	.half	.L157-.L16
-	.byte	3,1,1,5,17,7,9
-	.half	.L170-.L157
-	.byte	3,1,1,5,30,9
-	.half	.L295-.L170
-	.byte	1,5,32,9
-	.half	.L296-.L295
-	.byte	1,5,18,9
-	.half	.L22-.L296
-	.byte	3,2,1,5,17,7,9
-	.half	.L171-.L22
-	.byte	3,1,1,5,30,9
-	.half	.L297-.L171
-	.byte	1,5,8,9
-	.half	.L15-.L297
-	.byte	3,5,1,5,5,9
-	.half	.L172-.L15
-	.byte	1,5,9,7,9
-	.half	.L298-.L172
-	.byte	3,1,1,5,13,7,9
-	.half	.L158-.L298
-	.byte	3,1,1,5,17,7,9
-	.half	.L159-.L158
-	.byte	3,1,1,5,30,9
-	.half	.L299-.L159
-	.byte	1,5,32,9
-	.half	.L300-.L299
-	.byte	1,5,18,9
-	.half	.L27-.L300
-	.byte	3,2,1,5,17,7,9
-	.half	.L160-.L27
-	.byte	3,1,1,5,30,9
-	.half	.L301-.L160
-	.byte	1,5,13,9
-	.half	.L28-.L301
-	.byte	3,127,1,5,14,9
-	.half	.L26-.L28
-	.byte	3,4,1,5,13,7,9
-	.half	.L161-.L26
-	.byte	3,1,1,5,17,7,9
-	.half	.L162-.L161
-	.byte	3,1,1,5,30,9
-	.half	.L302-.L162
-	.byte	1,5,32,9
-	.half	.L303-.L302
-	.byte	1,5,18,9
-	.half	.L32-.L303
-	.byte	3,2,1,5,17,7,9
-	.half	.L163-.L32
-	.byte	3,1,1,5,30,9
-	.half	.L304-.L163
-	.byte	1,5,5,9
-	.half	.L25-.L304
-	.byte	3,5,1,5,14,9
-	.half	.L164-.L25
-	.byte	1,5,5,9
-	.half	.L165-.L164
-	.byte	3,1,1,5,14,9
-	.half	.L173-.L165
-	.byte	1,5,5,9
-	.half	.L174-.L173
-	.byte	3,2,1,5,1,9
-	.half	.L35-.L174
-	.byte	3,1,1,7,9
-	.half	.L98-.L35
+.L275:
+	.byte	5,29,7,0,5,2
+	.word	.L68
+	.byte	3,240,1,1,5,35,9
+	.half	.L276-.L68
+	.byte	1,4,2,5,40,9
+	.half	.L166-.L276
+	.byte	3,211,2,1,4,1,5,29,9
+	.half	.L167-.L166
+	.byte	3,174,125,1,5,35,9
+	.half	.L277-.L167
+	.byte	1,4,2,5,40,9
+	.half	.L175-.L277
+	.byte	3,210,2,1,4,1,5,1,9
+	.half	.L176-.L175
+	.byte	3,175,125,1,7,9
+	.half	.L86-.L176
 	.byte	0,1,1
-.L284:
-	.sdecl	'.debug_ranges',debug,cluster('AppNoTask')
+.L273:
+	.sdecl	'.debug_ranges',debug,cluster('Encoder_Two_Channel_Init')
 	.sect	'.debug_ranges'
-.L97:
-	.word	-1,.L50,0,.L98-.L50,0,0
-.L154:
-	.word	-1,.L50,.L148-.L50,.L11-.L50,.L155-.L50,.L156-.L50,.L16-.L50,.L157-.L50,.L158-.L50,.L159-.L50,.L27-.L50
-	.word	.L160-.L50,.L161-.L50,.L162-.L50,.L32-.L50,.L163-.L50,.L164-.L50,.L165-.L50,0,0
-.L167:
-	.word	-1,.L50,.L166-.L50,.L14-.L50,.L156-.L50,.L168-.L50,.L17-.L50,.L169-.L50,.L157-.L50,.L170-.L50,.L22-.L50
-	.word	.L171-.L50,.L172-.L50,.L158-.L50,.L26-.L50,.L161-.L50,.L173-.L50,.L174-.L50,0,0
-	.sdecl	'.debug_info',debug,cluster('calculateSpeed_Rads')
+.L85:
+	.word	-1,.L68,0,.L86-.L68,0,0
+	.sdecl	'.debug_info',debug,cluster('AppTask1ms')
 	.sect	'.debug_info'
-.L99:
-	.word	387
+.L87:
+	.word	240
 	.half	3
-	.word	.L100
+	.word	.L88
 	.byte	4,1
 	.byte	'../Appscheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L102,.L101
+	.word	.L90,.L89
 	.byte	2
-	.word	.L55
+	.word	.L73
 	.byte	3
-	.byte	'calculateSpeed_Rads',0,1,209,1,8
-	.word	.L175
-	.byte	1,1,1
-	.word	.L54,.L176,.L53
+	.byte	'AppTask1ms',0,1,111,13,1,1
+	.word	.L54,.L177,.L53
 	.byte	4
-	.byte	'encoderTicks',0,1,209,1,32
-	.word	.L177,.L178
-	.byte	4
-	.byte	'deltaTime',0,1,209,1,53
-	.word	.L175,.L179
-	.byte	5
-	.word	.L54,.L176
-	.byte	6
-	.byte	'radiansPerTick',0,1,210,1,12
-	.word	.L175,.L180
-	.byte	6
-	.byte	'totalRadians',0,1,211,1,12
-	.word	.L175,.L181
-	.byte	6
-	.byte	'speedRadPerSec',0,1,212,1,12
-	.word	.L175,.L182
-	.byte	0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('calculateSpeed_Rads')
+	.word	.L54,.L177
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppTask1ms')
 	.sect	'.debug_abbrev'
-.L100:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
-	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('calculateSpeed_Rads')
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppTask1ms')
 	.sect	'.debug_line'
-.L101:
-	.word	.L306-.L305
-.L305:
+.L89:
+	.word	.L279-.L278
+.L278:
 	.half	3
-	.word	.L308-.L307
-.L307:
+	.word	.L281-.L280
+.L280:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../Appscheduling.c',0,0,0,0,0
-.L308:
-	.byte	5,36,7,0,5,2
+.L281:
+	.byte	5,5,7,0,5,2
 	.word	.L54
-	.byte	3,209,1,1,5,27,9
-	.half	.L309-.L54
-	.byte	3,1,1,5,40,9
+	.byte	3,239,0,1,5,14,9
+	.half	.L282-.L54
+	.byte	1,5,26,9
+	.half	.L283-.L282
+	.byte	1,5,5,9
+	.half	.L284-.L283
+	.byte	3,2,1,5,39,9
+	.half	.L285-.L284
+	.byte	1,5,55,9
+	.half	.L286-.L285
+	.byte	1,5,53,9
+	.half	.L287-.L286
+	.byte	1,5,75,9
+	.half	.L288-.L287
+	.byte	1,5,17,9
+	.half	.L289-.L288
+	.byte	1,5,5,9
+	.half	.L290-.L289
+	.byte	3,1,1,5,21,9
+	.half	.L291-.L290
+	.byte	1,5,19,9
+	.half	.L292-.L291
+	.byte	1,5,8,9
+	.half	.L293-.L292
+	.byte	3,2,1,5,5,9
+	.half	.L294-.L293
+	.byte	1,5,21,7,9
+	.half	.L295-.L294
+	.byte	1,5,31,9
+	.half	.L296-.L295
+	.byte	1,5,29,9
+	.half	.L297-.L296
+	.byte	1,5,32,9
+	.half	.L298-.L297
+	.byte	1,5,13,9
+	.half	.L2-.L298
+	.byte	3,1,1,5,27,9
+	.half	.L299-.L2
+	.byte	1,5,37,9
+	.half	.L300-.L299
+	.byte	1,5,34,9
+	.half	.L301-.L300
+	.byte	1,5,41,7,9
+	.half	.L302-.L301
+	.byte	1,5,61,9
+	.half	.L303-.L302
+	.byte	1,5,68,9
+	.half	.L304-.L303
+	.byte	1,5,73,9
+	.half	.L305-.L304
+	.byte	1,5,51,9
+	.half	.L306-.L305
+	.byte	1,5,49,9
+	.half	.L307-.L306
+	.byte	1,5,84,9
+	.half	.L308-.L307
+	.byte	1,5,13,9
+	.half	.L4-.L308
+	.byte	3,1,1,5,22,9
+	.half	.L309-.L4
+	.byte	1,5,13,9
 	.half	.L310-.L309
-	.byte	1,5,42,9
-	.half	.L188-.L310
-	.byte	3,1,1,5,5,9
-	.half	.L189-.L188
-	.byte	3,2,1,5,1,9
-	.half	.L36-.L189
+	.byte	1,5,28,7,9
+	.half	.L311-.L310
+	.byte	1,5,38,9
+	.half	.L312-.L311
+	.byte	1,5,35,9
+	.half	.L313-.L312
+	.byte	1,5,42,7,9
+	.half	.L314-.L313
+	.byte	1,5,60,9
+	.half	.L315-.L314
+	.byte	1,5,50,9
+	.half	.L316-.L315
+	.byte	1,5,65,9
+	.half	.L317-.L316
+	.byte	1,5,13,9
+	.half	.L7-.L317
+	.byte	3,1,1,5,22,9
+	.half	.L318-.L7
+	.byte	1,5,13,9
+	.half	.L319-.L318
+	.byte	1,5,28,7,9
+	.half	.L320-.L319
+	.byte	1,5,38,9
+	.half	.L321-.L320
+	.byte	1,5,35,9
+	.half	.L322-.L321
+	.byte	1,5,42,7,9
+	.half	.L323-.L322
+	.byte	1,5,67,9
+	.half	.L324-.L323
+	.byte	1,5,65,9
+	.half	.L325-.L324
+	.byte	1,5,75,9
+	.half	.L326-.L325
+	.byte	1,5,52,9
+	.half	.L327-.L326
+	.byte	1,5,50,9
+	.half	.L328-.L327
+	.byte	1,5,5,9
+	.half	.L3-.L328
+	.byte	3,2,1,5,31,9
+	.half	.L329-.L3
+	.byte	1,5,39,9
+	.half	.L330-.L329
+	.byte	1,5,48,9
+	.half	.L331-.L330
+	.byte	1,5,9,9
+	.half	.L332-.L331
+	.byte	1,5,27,9
+	.half	.L333-.L332
+	.byte	3,1,1,5,43,9
+	.half	.L334-.L333
+	.byte	1,5,31,9
+	.half	.L335-.L334
+	.byte	1,5,18,9
+	.half	.L336-.L335
+	.byte	1,5,5,9
+	.half	.L337-.L336
+	.byte	3,2,1,5,26,9
+	.half	.L338-.L337
+	.byte	1,5,24,9
+	.half	.L339-.L338
+	.byte	1,5,1,9
+	.half	.L340-.L339
 	.byte	3,1,1,7,9
-	.half	.L103-.L36
+	.half	.L91-.L340
 	.byte	0,1,1
-.L306:
-	.sdecl	'.debug_ranges',debug,cluster('calculateSpeed_Rads')
+.L279:
+	.sdecl	'.debug_ranges',debug,cluster('AppTask1ms')
 	.sect	'.debug_ranges'
+.L90:
+	.word	-1,.L54,0,.L91-.L54,0,0
+	.sdecl	'.debug_info',debug,cluster('AppTask10ms')
+	.sect	'.debug_info'
+.L92:
+	.word	241
+	.half	3
+	.word	.L93
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L95,.L94
+	.byte	2
+	.word	.L73
+	.byte	3
+	.byte	'AppTask10ms',0,1,127,13,1,1
+	.word	.L56,.L178,.L55
+	.byte	4
+	.word	.L56,.L178
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppTask10ms')
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppTask10ms')
+	.sect	'.debug_line'
+.L94:
+	.word	.L342-.L341
+.L341:
+	.half	3
+	.word	.L344-.L343
+.L343:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0,0
+.L344:
+	.byte	5,5,7,0,5,2
+	.word	.L56
+	.byte	3,255,0,1,5,14,9
+	.half	.L345-.L56
+	.byte	1,5,27,9
+	.half	.L346-.L345
+	.byte	1,5,1,9
+	.half	.L347-.L346
+	.byte	3,1,1,7,9
+	.half	.L96-.L347
+	.byte	0,1,1
+.L342:
+	.sdecl	'.debug_ranges',debug,cluster('AppTask10ms')
+	.sect	'.debug_ranges'
+.L95:
+	.word	-1,.L56,0,.L96-.L56,0,0
+	.sdecl	'.debug_info',debug,cluster('AppTask100ms')
+	.sect	'.debug_info'
+.L97:
+	.word	243
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L100,.L99
+	.byte	2
+	.word	.L73
+	.byte	3
+	.byte	'AppTask100ms',0,1,130,1,13,1,1
+	.word	.L58,.L179,.L57
+	.byte	4
+	.word	.L58,.L179
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppTask100ms')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppTask100ms')
+	.sect	'.debug_line'
+.L99:
+	.word	.L349-.L348
+.L348:
+	.half	3
+	.word	.L351-.L350
+.L350:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0,0
+.L351:
+	.byte	5,5,7,0,5,2
+	.word	.L58
+	.byte	3,130,1,1,5,14,9
+	.half	.L352-.L58
+	.byte	1,5,28,9
+	.half	.L353-.L352
+	.byte	1,5,1,9
+	.half	.L354-.L353
+	.byte	3,2,1,7,9
+	.half	.L101-.L354
+	.byte	0,1,1
+.L349:
+	.sdecl	'.debug_ranges',debug,cluster('AppTask100ms')
+	.sect	'.debug_ranges'
+.L100:
+	.word	-1,.L58,0,.L101-.L58,0,0
+	.sdecl	'.debug_info',debug,cluster('AppTask1000ms')
+	.sect	'.debug_info'
 .L102:
-	.word	-1,.L54,0,.L103-.L54,0,0
-	.sdecl	'.debug_info',debug,cluster('Encoder_Ticks')
-	.sect	'.debug_info'
+	.word	244
+	.half	3
+	.word	.L103
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L105,.L104
+	.byte	2
+	.word	.L73
+	.byte	3
+	.byte	'AppTask1000ms',0,1,134,1,13,1,1
+	.word	.L60,.L180,.L59
+	.byte	4
+	.word	.L60,.L180
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppTask1000ms')
+	.sect	'.debug_abbrev'
+.L103:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppTask1000ms')
+	.sect	'.debug_line'
 .L104:
-	.word	222
+	.word	.L356-.L355
+.L355:
 	.half	3
-	.word	.L105
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'Encoder_Ticks',0,14,63,5
-	.word	.L177
-	.byte	1,5,3
-	.word	Encoder_Ticks
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Ticks')
-	.sect	'.debug_abbrev'
+	.word	.L358-.L357
+.L357:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0,0
+.L358:
+	.byte	5,5,7,0,5,2
+	.word	.L60
+	.byte	3,134,1,1,5,14,9
+	.half	.L359-.L60
+	.byte	1,5,29,9
+	.half	.L360-.L359
+	.byte	1,5,5,9
+	.half	.L361-.L360
+	.byte	3,5,1,5,11,9
+	.half	.L362-.L361
+	.byte	1,5,1,9
+	.half	.L363-.L362
+	.byte	3,8,1,7,9
+	.half	.L106-.L363
+	.byte	0,1,1
+.L356:
+	.sdecl	'.debug_ranges',debug,cluster('AppTask1000ms')
+	.sect	'.debug_ranges'
 .L105:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('radiansPerTick')
+	.word	-1,.L60,0,.L106-.L60,0,0
+	.sdecl	'.debug_info',debug,cluster('AppTask5000ms')
 	.sect	'.debug_info'
-.L106:
-	.word	223
-	.half	3
-	.word	.L107
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'radiansPerTick',0,14,65,8
-	.word	.L175
-	.byte	1,5,3
-	.word	radiansPerTick
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('radiansPerTick')
-	.sect	'.debug_abbrev'
 .L107:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('totalRadians')
-	.sect	'.debug_info'
+	.word	244
+	.half	3
+	.word	.L108
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L110,.L109
+	.byte	2
+	.word	.L73
+	.byte	3
+	.byte	'AppTask5000ms',0,1,149,1,13,1,1
+	.word	.L62,.L181,.L61
+	.byte	4
+	.word	.L62,.L181
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppTask5000ms')
+	.sect	'.debug_abbrev'
 .L108:
-	.word	221
-	.half	3
-	.word	.L109
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'totalRadians',0,14,66,8
-	.word	.L175
-	.byte	1,5,3
-	.word	totalRadians
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('totalRadians')
-	.sect	'.debug_abbrev'
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppTask5000ms')
+	.sect	'.debug_line'
 .L109:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('speedRadPerSec')
-	.sect	'.debug_info'
-.L110:
-	.word	223
+	.word	.L365-.L364
+.L364:
 	.half	3
-	.word	.L111
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'speedRadPerSec',0,14,67,8
-	.word	.L175
-	.byte	1,5,3
-	.word	speedRadPerSec
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('speedRadPerSec')
-	.sect	'.debug_abbrev'
-.L111:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('Rad_per_Sec')
+	.word	.L367-.L366
+.L366:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0,0
+.L367:
+	.byte	5,5,7,0,5,2
+	.word	.L62
+	.byte	3,149,1,1,5,14,9
+	.half	.L368-.L62
+	.byte	1,5,29,9
+	.half	.L369-.L368
+	.byte	1,5,1,9
+	.half	.L370-.L369
+	.byte	3,5,1,7,9
+	.half	.L111-.L370
+	.byte	0,1,1
+.L365:
+	.sdecl	'.debug_ranges',debug,cluster('AppTask5000ms')
+	.sect	'.debug_ranges'
+.L110:
+	.word	-1,.L62,0,.L111-.L62,0,0
+	.sdecl	'.debug_info',debug,cluster('AppNoTask')
 	.sect	'.debug_info'
 .L112:
-	.word	220
+	.word	696
 	.half	3
 	.word	.L113
 	.byte	4,1
 	.byte	'../Appscheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L115,.L114
+	.byte	2
+	.word	.L73
 	.byte	3
-	.byte	'Rad_per_Sec',0,14,68,8
-	.word	.L175
-	.byte	1,5,3
-	.word	Rad_per_Sec
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('Rad_per_Sec')
+	.byte	'AppNoTask',0,1,187,1,6,1,1,1
+	.word	.L66,.L182,.L65
+	.byte	4
+	.word	.L66,.L182
+	.byte	5
+	.byte	'CH_A_cur_val',0,1,188,1,11
+	.word	.L183,.L184
+	.byte	5
+	.byte	'CH_B_cur_val',0,1,189,1,11
+	.word	.L183,.L185
+	.byte	6
+	.word	.L186,.L187,.L19
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	8
+	.word	.L192,.L193
+	.byte	0,6
+	.word	.L186,.L203,.L22
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	8
+	.word	.L192,.L204
+	.byte	0,6
+	.word	.L186,.L194,.L195
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L195,.L205
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L24,.L196
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L196,.L206
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L207,.L197
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L197,.L198
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L32,.L199
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L199,.L200
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L201,.L202
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,6
+	.word	.L186,.L208,.L209
+	.byte	7
+	.word	.L188,.L189
+	.byte	7
+	.word	.L190,.L191
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppNoTask')
 	.sect	'.debug_abbrev'
 .L113:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('stTestCnt')
-	.sect	'.debug_info'
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,29,1
+	.byte	49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,0,49,16,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppNoTask')
+	.sect	'.debug_line'
 .L114:
-	.word	218
+	.word	.L372-.L371
+.L371:
 	.half	3
-	.word	.L115
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'stTestCnt',0,14,73,9
-	.word	.L183
-	.byte	1,5,3
-	.word	stTestCnt
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('stTestCnt')
-	.sect	'.debug_abbrev'
+	.word	.L374-.L373
+.L373:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0
+	.byte	'C:\\\\Users\\\\Administrator\\\\AURIX-v1.9.20-workspace\\\\Test0503\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
+	.byte	0,0,0,0
+.L374:
+	.byte	5,46,7,0,5,2
+	.word	.L66
+	.byte	3,187,1,1,4,2,5,13,9
+	.half	.L187-.L66
+	.byte	3,240,2,1,5,12,9
+	.half	.L375-.L187
+	.byte	1,5,51,7,9
+	.half	.L376-.L375
+	.byte	1,5,58,9
+	.half	.L225-.L376
+	.byte	1,5,51,9
+	.half	.L17-.L225
+	.byte	1,5,5,9
+	.half	.L18-.L17
+	.byte	1,4,1,5,46,9
+	.half	.L19-.L18
+	.byte	3,145,125,1,4,2,5,13,9
+	.half	.L203-.L19
+	.byte	3,239,2,1,5,12,9
+	.half	.L377-.L203
+	.byte	1,5,51,7,9
+	.half	.L378-.L377
+	.byte	1,5,58,9
+	.half	.L226-.L378
+	.byte	1,5,51,9
+	.half	.L20-.L226
+	.byte	1,5,5,9
+	.half	.L21-.L20
+	.byte	1,4,1,5,8,9
+	.half	.L22-.L21
+	.byte	3,148,125,1,5,5,9
+	.half	.L194-.L22
+	.byte	1,5,9,7,9
+	.half	.L379-.L194
+	.byte	3,1,1,5,29,7,9
+	.half	.L195-.L379
+	.byte	3,1,1,5,44,7,9
+	.half	.L205-.L195
+	.byte	1,5,57,9
+	.half	.L380-.L205
+	.byte	1,5,60,9
+	.half	.L381-.L380
+	.byte	1,5,62,9
+	.half	.L25-.L381
+	.byte	1,5,75,9
+	.half	.L382-.L25
+	.byte	1,5,13,9
+	.half	.L26-.L382
+	.byte	1,5,27,9
+	.half	.L383-.L26
+	.byte	1,5,77,9
+	.half	.L384-.L383
+	.byte	1,5,14,9
+	.half	.L24-.L384
+	.byte	3,8,1,5,29,7,9
+	.half	.L196-.L24
+	.byte	3,1,1,5,44,7,9
+	.half	.L206-.L196
+	.byte	1,5,57,9
+	.half	.L385-.L206
+	.byte	1,5,60,9
+	.half	.L386-.L385
+	.byte	1,5,62,9
+	.half	.L29-.L386
+	.byte	1,5,75,9
+	.half	.L387-.L29
+	.byte	1,5,13,9
+	.half	.L30-.L387
+	.byte	1,5,27,9
+	.half	.L388-.L30
+	.byte	1,5,8,9
+	.half	.L23-.L388
+	.byte	3,10,1,5,5,9
+	.half	.L207-.L23
+	.byte	1,5,9,7,9
+	.half	.L389-.L207
+	.byte	3,1,1,5,29,7,9
+	.half	.L197-.L389
+	.byte	3,1,1,5,44,7,9
+	.half	.L198-.L197
+	.byte	1,5,57,9
+	.half	.L390-.L198
+	.byte	1,5,60,9
+	.half	.L391-.L390
+	.byte	1,5,62,9
+	.half	.L33-.L391
+	.byte	1,5,75,9
+	.half	.L392-.L33
+	.byte	1,5,13,9
+	.half	.L34-.L392
+	.byte	1,5,27,9
+	.half	.L393-.L34
+	.byte	1,5,77,9
+	.half	.L394-.L393
+	.byte	1,5,14,9
+	.half	.L32-.L394
+	.byte	3,8,1,5,29,7,9
+	.half	.L199-.L32
+	.byte	3,1,1,5,44,7,9
+	.half	.L200-.L199
+	.byte	1,5,57,9
+	.half	.L395-.L200
+	.byte	1,5,60,9
+	.half	.L396-.L395
+	.byte	1,5,62,9
+	.half	.L37-.L396
+	.byte	1,5,75,9
+	.half	.L397-.L37
+	.byte	1,5,13,9
+	.half	.L38-.L397
+	.byte	1,5,27,9
+	.half	.L398-.L38
+	.byte	1,5,5,9
+	.half	.L31-.L398
+	.byte	3,10,1,5,14,9
+	.half	.L201-.L31
+	.byte	1,5,5,9
+	.half	.L202-.L201
+	.byte	3,1,1,5,14,9
+	.half	.L208-.L202
+	.byte	1,5,5,9
+	.half	.L209-.L208
+	.byte	3,2,1,5,1,9
+	.half	.L39-.L209
+	.byte	3,1,1,7,9
+	.half	.L116-.L39
+	.byte	0,1,1
+.L372:
+	.sdecl	'.debug_ranges',debug,cluster('AppNoTask')
+	.sect	'.debug_ranges'
 .L115:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('_tmp')
+	.word	-1,.L66,0,.L116-.L66,0,0
+.L193:
+	.word	-1,.L66,.L187-.L66,.L19-.L66,.L194-.L66,.L195-.L66,.L24-.L66,.L196-.L66,.L197-.L66,.L198-.L66,.L199-.L66
+	.word	.L200-.L66,.L201-.L66,.L202-.L66,0,0
+.L204:
+	.word	-1,.L66,.L203-.L66,.L22-.L66,.L195-.L66,.L205-.L66,.L196-.L66,.L206-.L66,.L207-.L66,.L197-.L66,.L32-.L66
+	.word	.L199-.L66,.L208-.L66,.L209-.L66,0,0
+	.sdecl	'.debug_info',debug,cluster('calculateSpeed_Rads')
 	.sect	'.debug_info'
-.L116:
-	.word	213
-	.half	3
-	.word	.L117
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'_tmp',0,14,74,7
-	.word	.L144
-	.byte	1,5,3
-	.word	_tmp
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('_tmp')
-	.sect	'.debug_abbrev'
 .L117:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('prev_CHA')
-	.sect	'.debug_info'
+	.word	397
+	.half	3
+	.word	.L118
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L120,.L119
+	.byte	2
+	.word	.L73
+	.byte	3
+	.byte	'calculateSpeed_Rads',0,1,245,1,8
+	.word	.L210
+	.byte	1,1,1
+	.word	.L70,.L211,.L69
+	.byte	4
+	.byte	'encoderTicks',0,1,245,1,35
+	.word	.L212,.L213
+	.byte	4
+	.byte	'deltaTime',0,1,245,1,56
+	.word	.L210,.L214
+	.byte	5
+	.word	.L70,.L211
+	.byte	5
+	.word	.L40,.L211
+	.byte	6
+	.byte	'radiansPerTick',0,1,248,1,12
+	.word	.L210,.L215
+	.byte	6
+	.byte	'totalRadians',0,1,249,1,12
+	.word	.L210,.L216
+	.byte	6
+	.byte	'speedRadPerSec',0,1,250,1,12
+	.word	.L210,.L217
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('calculateSpeed_Rads')
+	.sect	'.debug_abbrev'
 .L118:
-	.word	217
-	.half	3
-	.word	.L119
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'prev_CHA',0,14,75,7
-	.word	.L144
-	.byte	1,5,3
-	.word	prev_CHA
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('prev_CHA')
-	.sect	'.debug_abbrev'
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('calculateSpeed_Rads')
+	.sect	'.debug_line'
 .L119:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('prev_CHB')
-	.sect	'.debug_info'
-.L120:
-	.word	217
+	.word	.L400-.L399
+.L399:
 	.half	3
-	.word	.L121
-	.byte	4,1
-	.byte	'../Appscheduling.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
-	.byte	3
-	.byte	'prev_CHB',0,14,76,7
-	.word	.L144
-	.byte	1,5,3
-	.word	prev_CHB
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('prev_CHB')
-	.sect	'.debug_abbrev'
-.L121:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('prev_Encoder_Ticks')
+	.word	.L402-.L401
+.L401:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0,0
+.L402:
+	.byte	5,8,7,0,5,2
+	.word	.L70
+	.byte	3,244,1,1,5,23,9
+	.half	.L228-.L70
+	.byte	3,1,1,5,21,9
+	.half	.L403-.L228
+	.byte	1,5,5,9
+	.half	.L404-.L403
+	.byte	1,5,41,7,9
+	.half	.L405-.L404
+	.byte	1,5,39,9
+	.half	.L406-.L405
+	.byte	1,5,36,9
+	.half	.L40-.L406
+	.byte	3,2,1,5,27,9
+	.half	.L407-.L40
+	.byte	3,1,1,5,40,9
+	.half	.L227-.L407
+	.byte	1,5,42,9
+	.half	.L230-.L227
+	.byte	3,1,1,5,5,9
+	.half	.L231-.L230
+	.byte	3,3,1,5,1,9
+	.half	.L41-.L231
+	.byte	3,1,1,7,9
+	.half	.L121-.L41
+	.byte	0,1,1
+.L400:
+	.sdecl	'.debug_ranges',debug,cluster('calculateSpeed_Rads')
+	.sect	'.debug_ranges'
+.L120:
+	.word	-1,.L70,0,.L121-.L70,0,0
+	.sdecl	'.debug_info',debug,cluster('Make_Pulse_Generate')
 	.sect	'.debug_info'
 .L122:
-	.word	227
+	.word	305
 	.half	3
 	.word	.L123
 	.byte	4,1
 	.byte	'../Appscheduling.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L55
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L125,.L124
+	.byte	2
+	.word	.L73
 	.byte	3
-	.byte	'prev_Encoder_Ticks',0,14,77,8
-	.word	.L184
+	.byte	'Make_Pulse_Generate',0,1,128,2,8
+	.word	.L218
+	.byte	1,1,1
+	.word	.L72,.L219,.L71
+	.byte	4
+	.byte	'_t',0,1,128,2,34
+	.word	.L183,.L220
+	.byte	4
+	.byte	'w_ref',0,1,128,2,45
+	.word	.L210,.L221
+	.byte	4
+	.byte	'w',0,1,128,2,59
+	.word	.L210,.L222
+	.byte	5
+	.word	.L72,.L219
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Make_Pulse_Generate')
+	.sect	'.debug_abbrev'
+.L123:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Make_Pulse_Generate')
+	.sect	'.debug_line'
+.L124:
+	.word	.L409-.L408
+.L408:
+	.half	3
+	.word	.L411-.L410
+.L410:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Appscheduling.c',0,0,0,0,0
+.L411:
+	.byte	5,5,7,0,5,2
+	.word	.L72
+	.byte	3,128,2,1,5,9,7,9
+	.half	.L412-.L72
+	.byte	3,1,1,5,15,9
+	.half	.L413-.L412
+	.byte	1,5,13,9
+	.half	.L414-.L413
+	.byte	1,5,16,9
+	.half	.L415-.L414
+	.byte	1,5,13,9
+	.half	.L42-.L415
+	.byte	3,2,1,5,29,7,9
+	.half	.L416-.L42
+	.byte	1,5,26,9
+	.half	.L417-.L416
+	.byte	1,5,9,7,9
+	.half	.L418-.L417
+	.byte	3,1,1,5,25,9
+	.half	.L419-.L418
+	.byte	1,5,17,9
+	.half	.L420-.L419
+	.byte	1,5,9,9
+	.half	.L421-.L420
+	.byte	3,1,1,5,42,9
+	.half	.L422-.L421
+	.byte	1,5,51,9
+	.half	.L423-.L422
+	.byte	1,5,23,9
+	.half	.L424-.L423
+	.byte	1,5,39,9
+	.half	.L425-.L424
+	.byte	1,5,21,9
+	.half	.L426-.L425
+	.byte	1,5,9,9
+	.half	.L427-.L426
+	.byte	3,1,1,5,27,9
+	.half	.L428-.L427
+	.byte	1,5,25,9
+	.half	.L429-.L428
+	.byte	1,5,12,9
+	.half	.L430-.L429
+	.byte	3,2,1,5,26,9
+	.half	.L431-.L430
+	.byte	1,5,24,9
+	.half	.L432-.L431
+	.byte	1,5,9,9
+	.half	.L433-.L432
+	.byte	1,5,30,7,9
+	.half	.L434-.L433
+	.byte	1,5,44,9
+	.half	.L435-.L434
+	.byte	1,5,42,9
+	.half	.L436-.L435
+	.byte	1,5,9,9
+	.half	.L46-.L436
+	.byte	3,2,1,5,19,9
+	.half	.L437-.L46
+	.byte	1,5,16,9
+	.half	.L438-.L437
+	.byte	1,5,32,9
+	.half	.L439-.L438
+	.byte	1,5,29,9
+	.half	.L440-.L439
+	.byte	1,5,31,9
+	.half	.L441-.L440
+	.byte	1,5,27,9
+	.half	.L442-.L441
+	.byte	1,5,13,9
+	.half	.L443-.L442
+	.byte	1,5,12,9
+	.half	.L444-.L443
+	.byte	3,2,1,5,9,9
+	.half	.L445-.L444
+	.byte	1,5,22,7,9
+	.half	.L446-.L445
+	.byte	1,5,28,9
+	.half	.L447-.L446
+	.byte	1,5,26,9
+	.half	.L448-.L447
+	.byte	1,5,30,9
+	.half	.L449-.L448
+	.byte	1,5,17,9
+	.half	.L47-.L449
+	.byte	3,1,1,5,14,9
+	.half	.L450-.L47
+	.byte	1,5,26,7,9
+	.half	.L451-.L450
+	.byte	1,5,32,9
+	.half	.L452-.L451
+	.byte	1,5,30,9
+	.half	.L453-.L452
+	.byte	1,5,9,9
+	.half	.L48-.L453
+	.byte	1,5,18,9
+	.half	.L44-.L48
+	.byte	3,2,1,5,10,9
+	.half	.L454-.L44
+	.byte	1,5,9,7,9
+	.half	.L455-.L454
+	.byte	3,1,1,5,15,9
+	.half	.L456-.L455
+	.byte	1,5,13,9
+	.half	.L457-.L456
+	.byte	1,5,12,9
+	.half	.L43-.L457
+	.byte	3,2,1,5,5,9
+	.half	.L458-.L43
+	.byte	1,5,1,9
+	.half	.L52-.L458
+	.byte	3,1,1,7,9
+	.half	.L126-.L52
+	.byte	0,1,1
+.L409:
+	.sdecl	'.debug_ranges',debug,cluster('Make_Pulse_Generate')
+	.sect	'.debug_ranges'
+.L125:
+	.word	-1,.L72,0,.L126-.L72,0,0
+	.sdecl	'.debug_info',debug,cluster('Encoder_Ticks')
+	.sect	'.debug_info'
+.L127:
+	.word	222
+	.half	3
+	.word	.L128
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'Encoder_Ticks',0,14,69,8
+	.word	.L223
+	.byte	1,5,3
+	.word	Encoder_Ticks
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Encoder_Ticks')
+	.sect	'.debug_abbrev'
+.L128:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('prev_Encoder_Ticks')
+	.sect	'.debug_info'
+.L129:
+	.word	227
+	.half	3
+	.word	.L130
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'prev_Encoder_Ticks',0,14,70,8
+	.word	.L223
 	.byte	1,5,3
 	.word	prev_Encoder_Ticks
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('prev_Encoder_Ticks')
 	.sect	'.debug_abbrev'
-.L123:
+.L130:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('radiansPerTick')
+	.sect	'.debug_info'
+.L131:
+	.word	223
+	.half	3
+	.word	.L132
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'radiansPerTick',0,14,72,8
+	.word	.L210
+	.byte	1,5,3
+	.word	radiansPerTick
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('radiansPerTick')
+	.sect	'.debug_abbrev'
+.L132:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('totalRadians')
+	.sect	'.debug_info'
+.L133:
+	.word	221
+	.half	3
+	.word	.L134
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'totalRadians',0,14,73,8
+	.word	.L210
+	.byte	1,5,3
+	.word	totalRadians
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('totalRadians')
+	.sect	'.debug_abbrev'
+.L134:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('speedRadPerSec')
+	.sect	'.debug_info'
+.L135:
+	.word	223
+	.half	3
+	.word	.L136
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'speedRadPerSec',0,14,74,8
+	.word	.L210
+	.byte	1,5,3
+	.word	speedRadPerSec
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('speedRadPerSec')
+	.sect	'.debug_abbrev'
+.L136:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Rad_per_Sec')
+	.sect	'.debug_info'
+.L137:
+	.word	220
+	.half	3
+	.word	.L138
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'Rad_per_Sec',0,14,75,8
+	.word	.L210
+	.byte	1,5,3
+	.word	Rad_per_Sec
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Rad_per_Sec')
+	.sect	'.debug_abbrev'
+.L138:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('time_s')
+	.sect	'.debug_info'
+.L139:
+	.word	215
+	.half	3
+	.word	.L140
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'time_s',0,14,77,7
+	.word	.L183
+	.byte	1,5,3
+	.word	time_s
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('time_s')
+	.sect	'.debug_abbrev'
+.L140:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Vin')
+	.sect	'.debug_info'
+.L141:
+	.word	212
+	.half	3
+	.word	.L142
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'Vin',0,14,78,8
+	.word	.L218
+	.byte	1,5,3
+	.word	Vin
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Vin')
+	.sect	'.debug_abbrev'
+.L142:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('error_w')
+	.sect	'.debug_info'
+.L143:
+	.word	216
+	.half	3
+	.word	.L144
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'error_w',0,14,79,8
+	.word	.L210
+	.byte	1,5,3
+	.word	error_w
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('error_w')
+	.sect	'.debug_abbrev'
+.L144:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('error_w_int')
+	.sect	'.debug_info'
+.L145:
+	.word	220
+	.half	3
+	.word	.L146
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'error_w_int',0,14,80,8
+	.word	.L210
+	.byte	1,5,3
+	.word	error_w_int
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('error_w_int')
+	.sect	'.debug_abbrev'
+.L146:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('error_w_int_old')
+	.sect	'.debug_info'
+.L147:
+	.word	224
+	.half	3
+	.word	.L148
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'error_w_int_old',0,14,81,8
+	.word	.L210
+	.byte	1,5,3
+	.word	error_w_int_old
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('error_w_int_old')
+	.sect	'.debug_abbrev'
+.L148:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('w_ref')
+	.sect	'.debug_info'
+.L149:
+	.word	214
+	.half	3
+	.word	.L150
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'w_ref',0,14,82,8
+	.word	.L210
+	.byte	1,5,3
+	.word	w_ref
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('w_ref')
+	.sect	'.debug_abbrev'
+.L150:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('w')
+	.sect	'.debug_info'
+.L151:
+	.word	210
+	.half	3
+	.word	.L152
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'w',0,14,83,8
+	.word	.L210
+	.byte	1,5,3
+	.word	w
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('w')
+	.sect	'.debug_abbrev'
+.L152:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('stTestCnt')
+	.sect	'.debug_info'
+.L153:
+	.word	218
+	.half	3
+	.word	.L154
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'stTestCnt',0,14,88,9
+	.word	.L224
+	.byte	1,5,3
+	.word	stTestCnt
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('stTestCnt')
+	.sect	'.debug_abbrev'
+.L154:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('_tmp')
+	.sect	'.debug_info'
+.L155:
+	.word	213
+	.half	3
+	.word	.L156
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'_tmp',0,14,89,7
+	.word	.L183
+	.byte	1,5,3
+	.word	_tmp
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('_tmp')
+	.sect	'.debug_abbrev'
+.L156:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('prev_CHA')
+	.sect	'.debug_info'
+.L157:
+	.word	217
+	.half	3
+	.word	.L158
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'prev_CHA',0,14,90,7
+	.word	.L183
+	.byte	1,5,3
+	.word	prev_CHA
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('prev_CHA')
+	.sect	'.debug_abbrev'
+.L158:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('prev_CHB')
+	.sect	'.debug_info'
+.L159:
+	.word	217
+	.half	3
+	.word	.L160
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'prev_CHB',0,14,91,7
+	.word	.L183
+	.byte	1,5,3
+	.word	prev_CHB
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('prev_CHB')
+	.sect	'.debug_abbrev'
+.L160:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('in_Rads')
+	.sect	'.debug_info'
+.L161:
+	.word	216
+	.half	3
+	.word	.L162
+	.byte	4,1
+	.byte	'../Appscheduling.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\Administrator\\AURIX-v1.9.20-workspace\\Test0503\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L73
+	.byte	3
+	.byte	'in_Rads',0,14,92,8
+	.word	.L210
+	.byte	1,5,3
+	.word	in_Rads
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('in_Rads')
+	.sect	'.debug_abbrev'
+.L162:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('AppNoTask')
 	.sect	'.debug_loc'
-.L49:
-	.word	-1,.L50,0,.L143-.L50
+.L65:
+	.word	-1,.L66,0,.L182-.L66
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L145:
-	.word	-1,.L50,.L185-.L50,.L9-.L50
+.L184:
+	.word	-1,.L66,.L225-.L66,.L17-.L66
 	.half	1
-	.byte	81
-	.word	.L10-.L50,.L143-.L50
+	.byte	82
+	.word	.L18-.L66,.L182-.L66
 	.half	1
-	.byte	81
+	.byte	82
 	.word	0,0
-.L146:
-	.word	-1,.L50,.L186-.L50,.L12-.L50
-	.half	1
-	.byte	95
-	.word	.L13-.L50,.L143-.L50
-	.half	1
-	.byte	95
+.L185:
+	.word	-1,.L66,.L226-.L66,.L20-.L66
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L21-.L66,.L182-.L66
+	.half	5
+	.byte	144,32,157,32,0
 	.word	0,0
-.L152:
+.L191:
 	.word	0,0
-.L150:
+.L189:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('AppScheduling')
 	.sect	'.debug_loc'
-.L47:
-	.word	-1,.L48,0,.L124-.L48
+.L63:
+	.word	-1,.L64,0,.L163-.L64
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('AppTask1000ms')
 	.sect	'.debug_loc'
-.L43:
-	.word	-1,.L44,0,.L141-.L44
+.L59:
+	.word	-1,.L60,0,.L180-.L60
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('AppTask100ms')
 	.sect	'.debug_loc'
-.L41:
-	.word	-1,.L42,0,.L140-.L42
+.L57:
+	.word	-1,.L58,0,.L179-.L58
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('AppTask10ms')
 	.sect	'.debug_loc'
-.L39:
-	.word	-1,.L40,0,.L139-.L40
+.L55:
+	.word	-1,.L56,0,.L178-.L56
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('AppTask1ms')
 	.sect	'.debug_loc'
-.L37:
-	.word	-1,.L38,0,.L138-.L38
+.L53:
+	.word	-1,.L54,0,.L177-.L54
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('AppTask5000ms')
 	.sect	'.debug_loc'
-.L45:
-	.word	-1,.L46,0,.L142-.L46
+.L61:
+	.word	-1,.L62,0,.L181-.L62
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Encoder_Two_Channel_Init')
 	.sect	'.debug_loc'
-.L51:
-	.word	-1,.L52,0,.L125-.L52
+.L67:
+	.word	-1,.L68,0,.L164-.L68
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L134:
+.L173:
 	.word	0,0
-.L132:
+.L171:
 	.word	0,0
-.L130:
+.L169:
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('calculateSpeed_Rads')
+	.sdecl	'.debug_loc',debug,cluster('Make_Pulse_Generate')
 	.sect	'.debug_loc'
-.L53:
-	.word	-1,.L54,0,.L176-.L54
+.L71:
+	.word	-1,.L72,0,.L219-.L72
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L179:
-	.word	-1,.L54,0,.L176-.L54
-	.half	1
-	.byte	85
-	.word	0,0
-.L178:
-	.word	-1,.L54,0,.L176-.L54
+.L220:
+	.word	-1,.L72,0,.L219-.L72
 	.half	1
 	.byte	84
 	.word	0,0
-.L180:
-	.word	-1,.L54,.L187-.L54,.L188-.L54
+.L222:
+	.word	-1,.L72,0,.L219-.L72
+	.half	1
+	.byte	86
+	.word	0,0
+.L221:
+	.word	-1,.L72,0,.L219-.L72
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('calculateSpeed_Rads')
+	.sect	'.debug_loc'
+.L69:
+	.word	-1,.L70,0,.L211-.L70
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L214:
+	.word	-1,.L70,0,.L227-.L70
+	.half	1
+	.byte	86
+	.word	.L228-.L70,.L211-.L70
+	.half	1
+	.byte	88
+	.word	0,0
+.L213:
+	.word	-1,.L70,0,.L40-.L70
+	.half	2
+	.byte	144,34
+	.word	0,0
+.L215:
+	.word	-1,.L70,.L229-.L70,.L230-.L70
 	.half	1
 	.byte	95
 	.word	0,0
-.L182:
-	.word	-1,.L54,.L189-.L54,.L176-.L54
+.L217:
+	.word	-1,.L70,.L231-.L70,.L211-.L70
 	.half	1
 	.byte	82
 	.word	0,0
-.L181:
-	.word	-1,.L54,.L188-.L54,.L176-.L54
+.L216:
+	.word	-1,.L70,.L230-.L70,.L211-.L70
 	.half	1
 	.byte	95
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L311:
+.L459:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
 	.byte	8,39
 	.sdecl	'.debug_frame',debug,cluster('AppTask1ms')
 	.sect	'.debug_frame'
-	.word	24
-	.word	.L311,.L38,.L138-.L38
-	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.word	12
+	.word	.L459,.L54,.L177-.L54
 	.sdecl	'.debug_frame',debug,cluster('AppTask10ms')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L311,.L40,.L139-.L40
+	.word	.L459,.L56,.L178-.L56
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('AppTask100ms')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L311,.L42,.L140-.L42
+	.word	.L459,.L58,.L179-.L58
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('AppTask1000ms')
 	.sect	'.debug_frame'
-	.word	12
-	.word	.L311,.L44,.L141-.L44
+	.word	24
+	.word	.L459,.L60,.L180-.L60
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('AppTask5000ms')
 	.sect	'.debug_frame'
-	.word	12
-	.word	.L311,.L46,.L142-.L46
+	.word	24
+	.word	.L459,.L62,.L181-.L62
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('AppScheduling')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L311,.L48,.L124-.L48
+	.word	.L459,.L64,.L163-.L64
 	.sdecl	'.debug_frame',debug,cluster('AppNoTask')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L311,.L50,.L143-.L50
-	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.word	.L459,.L66,.L182-.L66
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('Encoder_Two_Channel_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L311,.L52,.L125-.L52
+	.word	.L459,.L68,.L164-.L68
 	.sdecl	'.debug_frame',debug,cluster('calculateSpeed_Rads')
 	.sect	'.debug_frame'
+	.word	12
+	.word	.L459,.L70,.L211-.L70
+	.sdecl	'.debug_frame',debug,cluster('Make_Pulse_Generate')
+	.sect	'.debug_frame'
 	.word	24
-	.word	.L311,.L54,.L176-.L54
-	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.word	.L459,.L72,.L219-.L72
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	; Module end

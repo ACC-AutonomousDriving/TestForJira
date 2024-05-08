@@ -58,7 +58,7 @@ sint8 g_fadeDir = 1;                                                /* Fade dire
 /*********************************************************************************************************************/
 /*-----------------------------------------------Function Prototypes-------------------------------------------------*/
 /*********************************************************************************************************************/
-void setDutyCycle(uint32 dutyCycle);                                /* Function to set the duty cycle of the PWM    */
+void setDutyCycle(uint16 dutyCycle);                                /* Function to set the duty cycle of the PWM    */
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Function Implementations-----------------------------------------------*/
@@ -78,8 +78,6 @@ void initGtmTomPwm(void)
     g_tomConfig.period = PWM_PERIOD;                                /* Set the timer period                         */
     g_tomConfig.pin.outputPin = &DC_MOTOR;                               /* Set the LED port pin as output               */
     g_tomConfig.synchronousUpdateEnabled = TRUE;                    /* Enable synchronous update                    */
-
-//    g_tomConfig.signalLevel = 0;                                    /* Active State                   */
 
     IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Initialize the GTM TOM                       */
     IfxGtm_Tom_Pwm_start(&g_tomDriver, TRUE);                       /* Start the PWM                                */
@@ -101,7 +99,7 @@ void fadeLED(void)
 }
 
 /* This function sets the duty cycle of the PWM */
-void setDutyCycle(uint32 dutyCycle)
+void setDutyCycle(uint16 dutyCycle)
 {
     Ifx_TickTime ticksFor10us = IfxStm_getTicksFromMicroseconds(BSP_DEFAULT_TIMER, 10);
     g_tomConfig.dutyCycle = dutyCycle;                              /* Change the value of the duty cycle           */

@@ -32,6 +32,7 @@
 #include "AppScheduling.h"
 #include "Driver_Stm.h"
 
+#include "Platform_Types.h"
 #include "GTM_TOM_PWM.h"
 #include <math.h>
 
@@ -39,33 +40,47 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define CH_A        &MODULE_P14,0
-#define CH_B        &MODULE_P14,1
-#define LOW_VAL     0
-#define HIGH_VAL    1
+#define CH_A                    &MODULE_P14,0
+#define CH_B                    &MODULE_P14,1
+#define LOW_VAL                 0
+#define HIGH_VAL                1
 
-#define PI 3.141592
-#define TICKS_PER_REVOLUTION 48
+#define PI                      3.141592
+#define TICKS_PER_REVOLUTION    48
+#define Ts                      0.001
+#define Kp                      4
+#define Ki                      0.1
+#define PWM_Period              50000       // (uint16 : 0~65535)
+
 /*********************************************************************************************************************/
 /*------------------------------------------------------Typedef-------------------------------------------------------*/
 /*********************************************************************************************************************/
 typedef struct
 {
-        uint32 u32nuCnt1ms;
-        uint32 u32nuCnt10ms;
-        uint32 u32nuCnt100ms;
-        uint32 u32nuCnt1000ms;
-        uint32 u32nuCnt5000ms;
+    uint32 u32nuCnt1ms;
+    uint32 u32nuCnt10ms;
+    uint32 u32nuCnt100ms;
+    uint32 u32nuCnt1000ms;
+    uint32 u32nuCnt5000ms;
 }TestCnt;
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-int Encoder_Ticks = 0;
+sint32 Encoder_Ticks = 0;
+sint32 prev_Encoder_Ticks = 0;
 
 double radiansPerTick = 0.0;  // 한 틱당 라디안
 double totalRadians = 0.0;    // 총 라디안
 double speedRadPerSec = 0.0;     // 초당 라디안
 double Rad_per_Sec = 0.0f;
+
+uint8 time_s = 0;
+uint32 Vin = 0;
+double error_w = 0.0f;
+double error_w_int = 0.0f;
+double error_w_int_old = 0.0f;
+double w_ref = 0.0f;
+double w = 0.0f;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -74,7 +89,7 @@ TestCnt stTestCnt;
 uint8 _tmp = 0;
 uint8 prev_CHA = 0;
 uint8 prev_CHB = 0;
-uint32 prev_Encoder_Ticks = 0;
+double in_Rads = 0;
 
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
@@ -86,7 +101,8 @@ static void AppTask1000ms(void);
 static void AppTask5000ms(void);
 
 void AppNoTask(void);
-double calculateSpeed_Rads(int encoderTicks, double deltaTime);
+double calculateSpeed_Rads(sint64 encoderTicks, double deltaTime);
+uint32 Make_Pulse_Generate(uint8 _t, double w_ref, double w);
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
@@ -94,6 +110,19 @@ double calculateSpeed_Rads(int encoderTicks, double deltaTime);
 
 static void AppTask1ms(void){
     stTestCnt.u32nuCnt1ms++;
+
+    Rad_per_Sec = calculateSpeed_Rads(Encoder_Ticks - prev_Encoder_Ticks, Ts); // rad/s 구하기
+    Encoder_Ticks = 0; // 초기화.
+
+    if(time_s <= 4) in_Rads = 0;
+    else if(time_s > 4 && time_s <= 19) in_Rads = (double)((time_s - 4) * (626/15));
+    else if(time_s > 19 && time_s <= 26) in_Rads = (double)626.2;
+    else if(time_s > 26 && time_s <= 41) in_Rads = (double)((41 - time_s) * (626/15));
+
+    Vin = Make_Pulse_Generate(time_s, in_Rads, Rad_per_Sec);
+    setDutyCycle((uint16)(Vin *(PWM_Period/11)));
+
+    prev_Encoder_Ticks = Encoder_Ticks;
 }
 static void AppTask10ms(void){
     stTestCnt.u32nuCnt10ms++;
@@ -105,13 +134,23 @@ static void AppTask100ms(void){
 static void AppTask1000ms(void){
     stTestCnt.u32nuCnt1000ms++;
 //    IfxPort_togglePin(&MODULE_P10,2);
-    Rad_per_Sec = calculateSpeed_Rads(Encoder_Ticks, 1.0); // rad/s 구하기
-    Encoder_Ticks = 0; // 초기화.
+//    Rad_per_Sec = calculateSpeed_Rads(Encoder_Ticks, 1.0); // rad/s 구하기
+//    Encoder_Ticks = 0; // 초기화.
+
+    time_s++;
+//    if(time_s <= 4) in_Rads = 0;
+//    else if(time_s > 4 && time_s <= 19) in_Rads = (double)((time_s - 4) * (626/15));
+//    else if(time_s > 19 && time_s <= 26) in_Rads = (double)626.2;
+//    else if(time_s > 26 && time_s <= 41) in_Rads = (double)((Two_SixTeen/15) * (41 - time_s)) * (626/Two_SixTeen);
+//
+//    Vin = Make_Pulse_Generate(time_s, in_Rads, Rad_per_Sec);
+//    setDutyCycle((uint32)(Vin *(Two_SixTeen/11)));
 }
 static void AppTask5000ms(void){
     stTestCnt.u32nuCnt5000ms++;
-    if(_tmp ^= 1) setDutyCycle(50000); // 4294967295 (최대)
-    else setDutyCycle(20000);
+
+    /*if(_tmp ^= 1) setDutyCycle(50000); // 4294967295 (최대)
+    else setDutyCycle(20000);*/
 
 }
 
@@ -149,49 +188,46 @@ void AppNoTask(){
     uint8 CH_A_cur_val = IfxPort_getPinState(CH_A);
     uint8 CH_B_cur_val = IfxPort_getPinState(CH_B);
 
-    /*if(prev_CHA != CH_A_cur_val){
-        Encoder_Ticks++;
-    }
-    else if(prev_CHB != CH_B_cur_val){
-        Encoder_Ticks++;
-    }*/
-
     // Encoder Tick counting
     if(prev_CHA != CH_A_cur_val){
         if(CH_A_cur_val == HIGH_VAL){
-            if(CH_B_cur_val == LOW_VAL){
+            Encoder_Ticks = CH_B_cur_val ? Encoder_Ticks-1 : Encoder_Ticks+1;
+            /*if(CH_B_cur_val == LOW_VAL){
                 Encoder_Ticks++;
             }
             else if(CH_B_cur_val == HIGH_VAL){
                 Encoder_Ticks--;
-            }
+            }*/
         }
         else if(CH_A_cur_val == LOW_VAL){
-            if(CH_B_cur_val == HIGH_VAL){
+            Encoder_Ticks = CH_B_cur_val ? Encoder_Ticks+1 : Encoder_Ticks-1;
+            /*if(CH_B_cur_val == HIGH_VAL){
                 Encoder_Ticks++;
             }
             else if(CH_B_cur_val == LOW_VAL){
                 Encoder_Ticks--;
-            }
+            }*/
         }
     }
 
     if(prev_CHB != CH_B_cur_val){
         if(CH_B_cur_val == HIGH_VAL){
-            if(CH_A_cur_val == HIGH_VAL){
+            Encoder_Ticks = CH_A_cur_val ? Encoder_Ticks+1 : Encoder_Ticks-1;
+            /*if(CH_A_cur_val == HIGH_VAL){
                 Encoder_Ticks++;
             }
             else if(CH_A_cur_val == LOW_VAL){
                 Encoder_Ticks--;
-            }
+            }*/
         }
         else if(CH_B_cur_val == LOW_VAL){
-            if(CH_A_cur_val == LOW_VAL){
+            Encoder_Ticks = CH_A_cur_val ? Encoder_Ticks-1 : Encoder_Ticks+1;
+            /*if(CH_A_cur_val == LOW_VAL){
                 Encoder_Ticks++;
             }
             else if(CH_A_cur_val == HIGH_VAL){
                 Encoder_Ticks--;
-            }
+            }*/
         }
     }
 
@@ -206,10 +242,35 @@ void Encoder_Two_Channel_Init(){
     IfxPort_setPinModeInput(CH_B, IfxPort_InputMode_pullUp);
 }
 
-double calculateSpeed_Rads(int encoderTicks, double deltaTime) {
+double calculateSpeed_Rads(sint64 encoderTicks, double deltaTime) {
+    if(encoderTicks < 0) encoderTicks = -encoderTicks;
+
     double radiansPerTick = 2 * PI / TICKS_PER_REVOLUTION;  // 한 틱당 라디안
     double totalRadians = encoderTicks * radiansPerTick;    // 총 라디안
     double speedRadPerSec = totalRadians / deltaTime;       // 초당 라디안
 
+//    speedRadPerSec = (speedRadPerSec < 0) ? (-speedRadPerSec) : speedRadPerSec;
     return speedRadPerSec;
+}
+
+uint32 Make_Pulse_Generate(uint8 _t, double w_ref, double w){
+    if(_t <= 4){
+        Vin = 0;
+    }
+    else if(_t > 4 && _t <= 41){
+        error_w = w_ref - w; // w_ref : 입력한 rad/s 값. w : 실제 모터의 rad/s
+        error_w_int = error_w_int_old + (error_w)*Ts;
+        error_w_int_old = error_w_int;
+
+        if(error_w_int > 10) error_w_int = 10;
+
+        Vin = (Kp*error_w + Ki*error_w_int);    // PI제어
+
+        if(Vin > 11) Vin = 11;
+        else if(Vin < 0) Vin = 0;
+    }
+    else if(_t > 41){
+        Vin = 0;
+    }
+    return Vin;
 }
