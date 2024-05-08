@@ -35,6 +35,7 @@
 #include "Platform_Types.h"
 #include "GTM_TOM_PWM.h"
 #include <math.h>
+#include "LPF.h"
 
 
 /*********************************************************************************************************************/
@@ -48,10 +49,12 @@
 #define PI                      3.141592
 #define TICKS_PER_REVOLUTION    48
 #define Ts                      0.001
-#define Kp                      4
-#define Ki                      0.1
+#define Kp                      0.5
+#define Ki                      0.005
+#define Kd                      0.8
 #define PWM_Period              50000       // (uint16 : 0~65535)
 
+#define CUT_OFF_FREQ            100
 /*********************************************************************************************************************/
 /*------------------------------------------------------Typedef-------------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -72,12 +75,15 @@ sint32 prev_Encoder_Ticks = 0;
 double radiansPerTick = 0.0;  // 한 틱당 라디안
 double totalRadians = 0.0;    // 총 라디안
 double speedRadPerSec = 0.0;     // 초당 라디안
-double Rad_per_Sec = 0.0f;
+double Rad_per_Sec = 0.0;
+double Rad_per_Sec_prev = 0.0;
+double Rad_per_Origin_prev = 0.0;
 
 uint8 time_s = 0;
 uint32 Vin = 0;
 double error_w = 0.0f;
 double error_w_int = 0.0f;
+double error_w_old = 0.0f;
 double error_w_int_old = 0.0f;
 double w_ref = 0.0f;
 double w = 0.0f;
@@ -112,17 +118,22 @@ static void AppTask1ms(void){
     stTestCnt.u32nuCnt1ms++;
 
     Rad_per_Sec = calculateSpeed_Rads(Encoder_Ticks - prev_Encoder_Ticks, Ts); // rad/s 구하기
-    Encoder_Ticks = 0; // 초기화.
+    Rad_per_Origin_prev = Rad_per_Sec;
+
+//    Encoder_Ticks = 0; // 초기화.
 
     if(time_s <= 4) in_Rads = 0;
     else if(time_s > 4 && time_s <= 19) in_Rads = (double)((time_s - 4) * (626/15));
     else if(time_s > 19 && time_s <= 26) in_Rads = (double)626.2;
     else if(time_s > 26 && time_s <= 41) in_Rads = (double)((41 - time_s) * (626/15));
 
+    Rad_per_Sec = LPF(Rad_per_Origin_prev, Rad_per_Sec_prev, Ts, CUT_OFF_FREQ);
+
     Vin = Make_Pulse_Generate(time_s, in_Rads, Rad_per_Sec);
     setDutyCycle((uint16)(Vin *(PWM_Period/11)));
 
     prev_Encoder_Ticks = Encoder_Ticks;
+    Rad_per_Sec_prev = Rad_per_Sec;
 }
 static void AppTask10ms(void){
     stTestCnt.u32nuCnt10ms++;
@@ -133,23 +144,12 @@ static void AppTask100ms(void){
 }
 static void AppTask1000ms(void){
     stTestCnt.u32nuCnt1000ms++;
-//    IfxPort_togglePin(&MODULE_P10,2);
-//    Rad_per_Sec = calculateSpeed_Rads(Encoder_Ticks, 1.0); // rad/s 구하기
-//    Encoder_Ticks = 0; // 초기화.
-
     time_s++;
-//    if(time_s <= 4) in_Rads = 0;
-//    else if(time_s > 4 && time_s <= 19) in_Rads = (double)((time_s - 4) * (626/15));
-//    else if(time_s > 19 && time_s <= 26) in_Rads = (double)626.2;
-//    else if(time_s > 26 && time_s <= 41) in_Rads = (double)((Two_SixTeen/15) * (41 - time_s)) * (626/Two_SixTeen);
-//
-//    Vin = Make_Pulse_Generate(time_s, in_Rads, Rad_per_Sec);
-//    setDutyCycle((uint32)(Vin *(Two_SixTeen/11)));
 }
 static void AppTask5000ms(void){
     stTestCnt.u32nuCnt5000ms++;
 
-    /*if(_tmp ^= 1) setDutyCycle(50000); // 4294967295 (최대)
+    /*if(_tmp ^= 1) setDutyCycle(50000);
     else setDutyCycle(20000);*/
 
 }
@@ -262,15 +262,21 @@ uint32 Make_Pulse_Generate(uint8 _t, double w_ref, double w){
         error_w_int = error_w_int_old + (error_w)*Ts;
         error_w_int_old = error_w_int;
 
+        float derivative = error_w - error_w_old;
+
         if(error_w_int > 10) error_w_int = 10;
 
-        Vin = (Kp*error_w + Ki*error_w_int);    // PI제어
+        Vin = (Kp*error_w + Ki*error_w_int + Kd*derivative);    // PID제어
+//        Vin = (Kp*error_w + Ki*error_w_int);    // PI제어
 
         if(Vin > 11) Vin = 11;
         else if(Vin < 0) Vin = 0;
+
+        error_w_old = error_w;
     }
     else if(_t > 41){
         Vin = 0;
     }
     return Vin;
 }
+
