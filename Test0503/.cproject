@@ -33,17 +33,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Infra/Sfr/TC27D/_Reg}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/StdIf}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/SysSe}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/SysSe/Bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/SysSe/Comm}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/Service/CpuGeneric/_Utilities}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Asclin}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Asclin/Asc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Asclin/Std}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Cpu}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Cpu/CStart}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Cpu/Irq}&quot;"/>
@@ -53,7 +48,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Gtm/Std}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Gtm/Tom}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Timer}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Mtu}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Mtu/Std}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Port}&quot;"/>
@@ -68,9 +62,10 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Vadc/Adc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/Vadc/Std}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/_Impl}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/_Lib}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/_PinMap}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/includes}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/includes/App}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/includes/Dev}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.1598523292" name="Defined symbols (-D)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__CPU__=tc27xd"/>
@@ -86,7 +81,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="HSM|Libraries/iLLD/TC27D/Tricore/Eth/Phy_Pef7071|Libraries/iLLD/TC27D/Tricore/Ccu6/TPwm|Libraries/iLLD/TC27D/Tricore/Gtm/Atom|Libraries/Service/CpuGeneric/If/Ccu6If|Libraries/iLLD/TC27D/Tricore/Gtm/Atom/Timer|Libraries/iLLD/TC27D/Tricore/Iom|Libraries/iLLD/TC27D/Tricore/Ccu6/PwmHl|Libraries/iLLD/TC27D/Tricore/Ccu6/TimerWithTrigger|Libraries/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl|Libraries/iLLD/TC27D/Tricore/Dsadc/Rdc|Libraries/iLLD/TC27D/Tricore/Port/Io|Libraries/iLLD/TC27D/Tricore/Hssl/Hssl|Libraries/iLLD/TC27D/Tricore/Iom/Std|Libraries/Service/CpuGeneric/SysSe/Time|Libraries/iLLD/TC27D/Tricore/Msc/Std|Libraries/.ads|Libraries/iLLD/TC27D/Tricore/Ccu6/Timer|Libraries/iLLD/TC27D/Tricore/Gtm/Tim|Libraries/iLLD/TC27D/Tricore/Fce/Crc|Libraries/iLLD/TC27D/Tricore/Ccu6|Libraries/iLLD/TC27D/Tricore/Eth/Std|Libraries/iLLD/TC27D/Tricore/Ccu6/Std|Libraries/iLLD/TC27D/Tricore/Eray/Eray|Libraries/iLLD/TC27D/Tricore/Gpt12|Libraries/iLLD/TC27D/Tricore/Multican/Std|Libraries/iLLD/TC27D/Tricore/Stm/Timer|Libraries/iLLD/TC27D/Tricore/Flash|Libraries/iLLD/TC27D/Tricore/Gtm/Atom/Pwm|Libraries/iLLD/TC27D/Tricore/Smu/Std|Libraries/iLLD/TC27D/Tricore/Gtm/Atom/PwmHl|Libraries/iLLD/TC27D/Tricore/Emem/Std|Libraries/iLLD/TC27D/Tricore/Ccu6/PwmBc|Libraries/iLLD/TC27D/Tricore/Qspi/SpiMaster|Libraries/iLLD/TC27D/Tricore/Dsadc/Dsadc|Libraries/iLLD/TC27D/Tricore/Hssl|Libraries/Service/CpuGeneric/SysSe/General|Libraries/iLLD/TC27D/Tricore/Eray|Libraries/iLLD/TC27D/Tricore/Multican|Libraries/iLLD/TC27D/Tricore/I2c/Std|Libraries/iLLD/TC27D/Tricore/Qspi|Libraries/Service/CpuGeneric/SysSe/Math|Libraries/iLLD/TC27D/Tricore/Dma|Libraries/iLLD/TC27D/Tricore/Flash/Std|Libraries/iLLD/TC27D/Tricore/Psi5/Std|Libraries/iLLD/TC27D/Tricore/Qspi/SpiSlave|Libraries/iLLD/TC27D/Tricore/Dts|Libraries/iLLD/TC27D/Tricore/Psi5s/Psi5s|Libraries/iLLD/TC27D/Tricore/I2c|Libraries/iLLD/TC27D/Tricore/Eth|Libraries/iLLD/TC27D/Tricore/Fce/Std|Libraries/iLLD/TC27D/Tricore/Gpt12/IncrEnc|Libraries/iLLD/TC27D/Tricore/Cif/Cam|Libraries/iLLD/TC27D/Tricore/Asclin/Lin|Libraries/iLLD/TC27D/Tricore/Msc/Msc|Libraries/iLLD/TC27D/Tricore/Eray/Std|Libraries/iLLD/TC27D/Tricore/Psi5s|Libraries/iLLD/TC27D/Tricore/Sent|Libraries/iLLD/TC27D/Tricore/Asclin/Spi|Libraries/iLLD/TC27D/Tricore/Cif|Libraries/iLLD/TC27D/Tricore/Sent/Sent|Libraries/iLLD/TC27D/Tricore/Qspi/Std|Libraries/iLLD/TC27D/Tricore/Dts/Dts|Libraries/iLLD/TC27D/Tricore/Dsadc/Std|Libraries/iLLD/TC27D/Tricore/Emem|Libraries/iLLD/TC27D/Tricore/Dsadc|Libraries/iLLD/TC27D/Tricore/Psi5s/Std|Libraries/iLLD/TC27D/Tricore/Smu|Libraries/iLLD/TC27D/Tricore/Ccu6/Icu|Libraries/iLLD/TC27D/Tricore/Hssl/Std|Libraries/iLLD/TC27D/Tricore/_Lib/InternalMux|Libraries/iLLD/TC27D/Tricore/Dma/Dma|Libraries/iLLD/TC27D/Tricore/Gpt12/Std|Libraries/iLLD/TC27D/Tricore/Psi5|Libraries/iLLD/TC27D/Tricore/Sent/Std|Libraries/iLLD/TC27D/Tricore/Gtm/Tim/In|Libraries/iLLD/TC27D/Tricore/I2c/I2c|Libraries/iLLD/TC27D/Tricore/Cif/Std|Libraries/iLLD/TC27D/Tricore/Fce|Libraries/iLLD/TC27D/Tricore/Gtm/Trig|Libraries/iLLD/TC27D/Tricore/_Build|Libraries/iLLD/TC27D/Tricore/Iom/Driver|Libraries/iLLD/TC27D/Tricore/Msc|Libraries/iLLD/TC27D/Tricore/Dts/Std|Libraries/iLLD/TC27D/Tricore/Multican/Can|Libraries/Service/CpuGeneric/If|Libraries/iLLD/TC27D/Tricore/Psi5/Psi5|Libraries/iLLD/TC27D/Tricore/Dma/Std" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry excluding="includes|Dev|App|HSM|Libraries/iLLD/TC27D/Tricore/Eth/Phy_Pef7071|Libraries/Service/CpuGeneric/StdIf|Libraries/iLLD/TC27D/Tricore/Ccu6/TPwm|Libraries/iLLD/TC27D/Tricore/Gtm/Atom|Libraries/Service/CpuGeneric/If/Ccu6If|Libraries/iLLD/TC27D/Tricore/Asclin/Std|Libraries/iLLD/TC27D/Tricore/Gtm/Atom/Timer|Libraries/iLLD/TC27D/Tricore/Iom|Libraries/iLLD/TC27D/Tricore/Ccu6/PwmHl|Libraries/iLLD/TC27D/Tricore/Ccu6/TimerWithTrigger|Libraries/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl|Libraries/iLLD/TC27D/Tricore/Dsadc/Rdc|Libraries/iLLD/TC27D/Tricore/Port/Io|Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Timer|Libraries/iLLD/TC27D/Tricore/Hssl/Hssl|Libraries/iLLD/TC27D/Tricore/Iom/Std|Libraries/Service/CpuGeneric/SysSe/Time|Libraries/iLLD/TC27D/Tricore/Msc/Std|Libraries/.ads|Libraries/iLLD/TC27D/Tricore/Ccu6/Timer|Libraries/iLLD/TC27D/Tricore/Gtm/Tim|Libraries/iLLD/TC27D/Tricore/Fce/Crc|Libraries/iLLD/TC27D/Tricore/Asclin|Libraries/iLLD/TC27D/Tricore/Ccu6|Libraries/iLLD/TC27D/Tricore/Eth/Std|Libraries/iLLD/TC27D/Tricore/Ccu6/Std|Libraries/iLLD/TC27D/Tricore/Eray/Eray|Libraries/iLLD/TC27D/Tricore/Gpt12|Libraries/iLLD/TC27D/Tricore/Multican/Std|Libraries/iLLD/TC27D/Tricore/Stm/Timer|Libraries/iLLD/TC27D/Tricore/Flash|Libraries/iLLD/TC27D/Tricore/Gtm/Atom/Pwm|Libraries/iLLD/TC27D/Tricore/Smu/Std|Libraries/iLLD/TC27D/Tricore/Gtm/Atom/PwmHl|Libraries/iLLD/TC27D/Tricore/Emem/Std|Libraries/iLLD/TC27D/Tricore/Ccu6/PwmBc|Libraries/iLLD/TC27D/Tricore/Qspi/SpiMaster|Libraries/iLLD/TC27D/Tricore/Dsadc/Dsadc|Libraries/iLLD/TC27D/Tricore/Hssl|Libraries/Service/CpuGeneric/SysSe/General|Libraries/iLLD/TC27D/Tricore/Eray|Libraries/iLLD/TC27D/Tricore/Multican|Libraries/iLLD/TC27D/Tricore/I2c/Std|Libraries/iLLD/TC27D/Tricore/Qspi|Libraries/Service/CpuGeneric/SysSe/Comm|Libraries/Service/CpuGeneric/SysSe/Math|Libraries/iLLD/TC27D/Tricore/Dma|Libraries/iLLD/TC27D/Tricore/Flash/Std|Libraries/iLLD/TC27D/Tricore/Psi5/Std|Libraries/iLLD/TC27D/Tricore/Qspi/SpiSlave|Libraries/iLLD/TC27D/Tricore/Dts|Libraries/iLLD/TC27D/Tricore/Psi5s/Psi5s|Libraries/iLLD/TC27D/Tricore/I2c|Libraries/iLLD/TC27D/Tricore/_Lib|Libraries/iLLD/TC27D/Tricore/Eth|Libraries/iLLD/TC27D/Tricore/Fce/Std|Libraries/iLLD/TC27D/Tricore/Gpt12/IncrEnc|Libraries/iLLD/TC27D/Tricore/Cif/Cam|Libraries/iLLD/TC27D/Tricore/Asclin/Lin|Libraries/iLLD/TC27D/Tricore/Msc/Msc|Libraries/iLLD/TC27D/Tricore/Eray/Std|Libraries/iLLD/TC27D/Tricore/Psi5s|Libraries/iLLD/TC27D/Tricore/Sent|Libraries/iLLD/TC27D/Tricore/Asclin/Spi|Libraries/iLLD/TC27D/Tricore/Cif|Libraries/iLLD/TC27D/Tricore/Sent/Sent|Libraries/iLLD/TC27D/Tricore/Qspi/Std|Libraries/iLLD/TC27D/Tricore/Dts/Dts|Libraries/iLLD/TC27D/Tricore/Dsadc/Std|Libraries/iLLD/TC27D/Tricore/Emem|Libraries/iLLD/TC27D/Tricore/Dsadc|Libraries/iLLD/TC27D/Tricore/Psi5s/Std|Libraries/iLLD/TC27D/Tricore/Smu|Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling|Libraries/iLLD/TC27D/Tricore/Ccu6/Icu|Libraries/iLLD/TC27D/Tricore/Hssl/Std|Libraries/iLLD/TC27D/Tricore/_Lib/InternalMux|Libraries/iLLD/TC27D/Tricore/Dma/Dma|Libraries/iLLD/TC27D/Tricore/Gpt12/Std|Libraries/iLLD/TC27D/Tricore/Psi5|Libraries/iLLD/TC27D/Tricore/Sent/Std|Libraries/iLLD/TC27D/Tricore/Gtm/Tim/In|Libraries/iLLD/TC27D/Tricore/I2c/I2c|Libraries/iLLD/TC27D/Tricore/Cif/Std|Libraries/iLLD/TC27D/Tricore/Fce|Libraries/iLLD/TC27D/Tricore/Gtm/Trig|Libraries/iLLD/TC27D/Tricore/_Build|Libraries/iLLD/TC27D/Tricore/Iom/Driver|Libraries/iLLD/TC27D/Tricore/Msc|Libraries/iLLD/TC27D/Tricore/Asclin/Asc|Libraries/iLLD/TC27D/Tricore/Dts/Std|Libraries/iLLD/TC27D/Tricore/Multican/Can|Libraries/Service/CpuGeneric/If|Libraries/iLLD/TC27D/Tricore/Psi5/Psi5|Libraries/iLLD/TC27D/Tricore/Dma/Std" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="App"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Dev"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="includes"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -106,12 +104,12 @@
 				<configuration artifactName="${ProjName}" buildArtefactType="com.infineon.aurix.buildsystem.managed.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.infineon.aurix.buildsystem.managed.buildArtefactType.elf,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.infineon.aurix.buildsystem.managed.configuration.binary.682984909" name="TriCore Release (TASKING)" parent="com.infineon.aurix.buildsystem.managed.configuration.binary">
 					<folderInfo id="com.infineon.aurix.buildsystem.managed.configuration.binary.682984909." name="/" resourcePath="">
 						<toolChain id="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary.251149822" name="TASKING" superClass="com.infineon.aurix.buildsystem.managed.toolChain.tasking.exe.binary">
-							<option id="com.tasking.ctc.cpu.1523154056" superClass="com.tasking.ctc.cpu" value="tc27xd" valueType="string"/>
-							<option id="com.tasking.ctc.package.883707377" superClass="com.tasking.ctc.package" value="qfp176" valueType="string"/>
+							<option id="com.tasking.ctc.cpu.1523154056" name="Processor" superClass="com.tasking.ctc.cpu" value="tc27xd" valueType="string"/>
+							<option id="com.tasking.ctc.package.883707377" name="Device package" superClass="com.tasking.ctc.package" value="qfp176" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF" id="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform.1281515910" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.tasking.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/Test0503}/TriCore Release (TASKING)" id="com.infineon.aurix.buildsystem.managed.tasking.builder.632864302" name="Gnu Make Builder.TriCore Release (TASKING)" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
+							<builder buildPath="${workspace_loc:/Test0503}/TriCore Release (TASKING)" id="com.infineon.aurix.buildsystem.managed.tasking.builder.632864302" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.tasking.builder"/>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug.1361119847" name="TASKING C/C++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.debug">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1581720974" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" valueType="includePath">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include.1581720974" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.include" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Configurations}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries}&quot;"/>
@@ -248,7 +246,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/_Lib/InternalMux}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries/iLLD/TC27D/Tricore/_PinMap}&quot;"/>
 								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.4247120" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" valueType="definedSymbols">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols.4247120" name="Defined symbols (-D)" superClass="com.infineon.aurix.buildsystem.managed.c.compiler.tasking.preprocessor.definedSymbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__CPU__=tc27xd"/>
 								</option>
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp.1791972043" name="C++" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.tasking.input.cpp"/>
@@ -262,7 +260,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="HSM" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry excluding="Dev|App|includes|HSM" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="App"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Dev"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="includes"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -285,11 +286,11 @@
 					<folderInfo id="com.infineon.aurix.buildsystem.managed.external.gcc.builtin.configuration.debug.435468891." name="/" resourcePath="">
 						<toolChain id="com.infineon.aurix.buildsystem.managed.external.gcc.builtin.configuration.debug.560065098" name="GCC" superClass="com.infineon.aurix.buildsystem.managed.external.gcc.builtin.configuration.debug">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform.1970913048" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/Test0503}/TriCore Debug (GCC)" id="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder.77134151" name="Gnu Make Builder.TriCore Debug (GCC)" superClass="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder"/>
+							<builder buildPath="${workspace_loc:/Test0503}/TriCore Debug (GCC)" id="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder.77134151" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder"/>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.1609895085" name="AURIX GCC Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler">
-								<option defaultValue="gnu.c.optimization.level.none" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level.1825185689" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option defaultValue="gnu.c.debugging.level.max" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level.970406845" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths.2094687564" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<option defaultValue="gnu.c.optimization.level.none" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level.1825185689" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.max" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level.970406845" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths.2094687564" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Configurations}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries}&quot;"/>
@@ -429,8 +430,8 @@
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.1503293258" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType"/>
 							</tool>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.251093111" name="AURIX G++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler">
-								<option id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level.2018022188" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
-								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level.544402386" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level.2018022188" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level.544402386" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
 							</tool>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.assembler.666047312" name="AURIX GCC Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler">
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType.2131122407" name="Assembler Input" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType"/>
@@ -445,7 +446,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="HSM" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry excluding="Dev|App|includes|HSM" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="App"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Dev"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="includes"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -468,11 +472,11 @@
 					<folderInfo id="com.infineon.aurix.buildsystem.managed.external.gcc.builtin.configuration.release.77142769." name="/" resourcePath="">
 						<toolChain id="com.infineon.aurix.buildsystem.managed.external.gcc.builtin.configuration.release.775935648" name="GCC" superClass="com.infineon.aurix.buildsystem.managed.external.gcc.builtin.configuration.release">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform.792728847" isAbstract="false" osList="all" superClass="com.infineon.aurix.buildsystem.managed.gcc.targetPlatform"/>
-							<builder buildPath="${workspace_loc:/Test0503}/TriCore Release (GCC)" id="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder.237053739" name="Gnu Make Builder.TriCore Release (GCC)" superClass="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder"/>
+							<builder buildPath="${workspace_loc:/Test0503}/TriCore Release (GCC)" id="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder.237053739" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="com.infineon.aurix.buildsystem.managed.gcc.builtin.builder"/>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.1688811093" name="AURIX GCC Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler">
-								<option defaultValue="gnu.c.optimization.level.most" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level.1446686985" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option defaultValue="gnu.c.debugging.level.none" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level.974834477" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths.1515743132" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<option defaultValue="gnu.c.optimization.level.most" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level.1446686985" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level.974834477" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths.1515743132" name="Include paths (-I)" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Configurations}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Libraries}&quot;"/>
@@ -612,8 +616,8 @@
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType.1540010538" superClass="com.infineon.aurix.buildsystem.managed.tool.c.compiler.inputType"/>
 							</tool>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.381166096" name="AURIX G++ Compiler" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler">
-								<option id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level.1159253737" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
-								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level.1866948205" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level.1159253737" name="Optimization Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level.1866948205" name="Debug Level" superClass="com.infineon.aurix.buildsystem.managed.tool.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
 							</tool>
 							<tool id="com.infineon.aurix.buildsystem.managed.tool.assembler.2090479595" name="AURIX GCC Assembler" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler">
 								<inputType id="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType.1472396802" name="Assembler Input" superClass="com.infineon.aurix.buildsystem.managed.tool.assembler.inputType"/>
@@ -628,7 +632,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="HSM" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry excluding="Dev|App|includes|HSM" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="App"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Dev"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="includes"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
