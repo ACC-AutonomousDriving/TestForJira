@@ -33,14 +33,12 @@
 #include "Bsp.h"
 
 #include "LED.h"
-#include "Uart.h"
 #include "Driver_Stm.h"
 #include "Appscheduling.h"
-#include "myADC.h"
-#include "Vadc.h"
 
-//#include "Gtm.h"
-//#include "Pwm.h"
+
+#include "math.h"
+#include "adc.h"
 
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
@@ -48,12 +46,10 @@
 #define WAIT_TIME   10              /* Number of milliseconds to wait between each duty cycle change                */
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
-
+//uint16 a0 = 0u;
 
 void core0_main(void)
 {
-    
-
     /* !!WATCHDOG0 AND SAFETY WATCHDOG ARE DISABLED HERE!!
      * Enable the watchdogs and service them periodically if it is required
      */
@@ -67,15 +63,11 @@ void core0_main(void)
 //    unsigned char c;
 //    _init_uart3();
 
-
     LED_Init();
     Driver_Stm_Init();  // 시스템 타이머 모듈 초기화.
     Encoder_Two_Channel_Init(); // 엔코더 채널 핀 초기 설정.
 
-
     IfxCpu_enableInterrupts();
-
-//    uint32 ULSraw = 0u;
 
     /* Initialize a time variable */
    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
@@ -83,12 +75,11 @@ void core0_main(void)
    /* Initialize GTM TOM module */
    initGtmTomPwm();
 
+   initAdc(&SAR4_7);
+   Init_Ultrasonic();
     while(1)
     {
-//        DrvAdc_GetAdcRawGroup0(); // ADC 받기.
-//        SensorAdcRaw* pstSensorAdcRaw = MidAdc_GetAdcGroup0SenseRaw();
-//        ULSraw = pstSensorAdcRaw->UlSSense1_Raw;
-
+        float32 d = Get_Ultrasonic_Distance();
 
         /*c = _in_uart3(); // 문자 입력
         _out_uart3(c); // 입력받은 문자열 다시 전송
@@ -96,13 +87,13 @@ void core0_main(void)
             _out_uart3('\n'); // 개행 문자 처리
         }*/
 
-
-        AppScheduling(); // 앱 스케쥴링 실행.
+        //AppScheduling(); // 앱 스케쥴링 실행.
+//        a0 = getAdc(&SAR4_7);
 
 //        fadeLED();                  /* Change the intensity of the LED  */
 //        setDutyCycle(5000);
 //        waitTime(ticksFor10ms * 500);     /* Delay of 10ms                    */
 //        setDutyCycle(0);
-//        waitTime(ticksFor10ms * 500);     /* Delay of 10ms                    */
+        //waitTime(ticksFor10ms);     /* Delay of 10ms                    */
     }
 }

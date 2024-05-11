@@ -8,8 +8,9 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include includes/Dev/subdir.mk
+-include includes/App/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_PinMap/subdir.mk
--include Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_Impl/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Vadc/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Vadc/Adc/subdir.mk
@@ -18,18 +19,13 @@ RM := rm -rf
 -include Libraries/iLLD/TC27D/Tricore/Scu/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Port/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Mtu/Std/subdir.mk
--include Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Timer/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Gtm/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Cpu/Trap/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Cpu/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Cpu/Irq/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Cpu/CStart/subdir.mk
--include Libraries/iLLD/TC27D/Tricore/Asclin/Std/subdir.mk
--include Libraries/iLLD/TC27D/Tricore/Asclin/Asc/subdir.mk
--include Libraries/Service/CpuGeneric/SysSe/Comm/subdir.mk
 -include Libraries/Service/CpuGeneric/SysSe/Bsp/subdir.mk
--include Libraries/Service/CpuGeneric/StdIf/subdir.mk
 -include Libraries/Infra/Platform/Tricore/Compilers/subdir.mk
 -include Configurations/Debug/subdir.mk
 -include subdir.mk
