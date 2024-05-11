@@ -50,7 +50,7 @@
 #define TICKS_PER_REVOLUTION    48
 #define Ts                      0.001
 #define Kp                      0.5
-#define Ki                      0.005
+#define Ki                      0.1     // 0.005
 #define Kd                      0.8
 #define PWM_Period              50000       // (uint16 : 0~65535)
 

@@ -47,6 +47,7 @@
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 //uint16 a0 = 0u;
+float32 dist = 0.0f;
 
 void core0_main(void)
 {
@@ -76,24 +77,26 @@ void core0_main(void)
    initGtmTomPwm();
 
    initAdc(&SAR4_7);
+
    Init_Ultrasonic();
+
     while(1)
     {
-        float32 d = Get_Ultrasonic_Distance();
 
+        dist = Get_Ultrasonic_Distance();
         /*c = _in_uart3(); // 문자 입력
         _out_uart3(c); // 입력받은 문자열 다시 전송
         if(c == '\r'){
             _out_uart3('\n'); // 개행 문자 처리
         }*/
 
-        //AppScheduling(); // 앱 스케쥴링 실행.
+//        AppScheduling(); // 앱 스케쥴링 실행.
 //        a0 = getAdc(&SAR4_7);
 
 //        fadeLED();                  /* Change the intensity of the LED  */
 //        setDutyCycle(5000);
 //        waitTime(ticksFor10ms * 500);     /* Delay of 10ms                    */
 //        setDutyCycle(0);
-        //waitTime(ticksFor10ms);     /* Delay of 10ms                    */
+        waitTime(ticksFor10ms);     /* Delay of 10ms                    */
     }
 }
