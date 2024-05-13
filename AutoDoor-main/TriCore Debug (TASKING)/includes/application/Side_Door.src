@@ -1,0 +1,393 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc17104a --dep-file=includes/application/Side_Door.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Configurations -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Service -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\includes -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\includes\\\\application -IC:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Side_Door.src ../includes/application/Side_Door.c"
+	.compiler_name		"ctc"
+	;source	'../includes/application/Side_Door.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Side_Door.Control_Door',code,cluster('Control_Door')
+	.sect	'.text.Side_Door.Control_Door'
+	.align	2
+	
+	.global	Control_Door
+; Function Control_Door
+.L19:
+Control_Door:	.type	func
+	ld.bu	d15,[a4]
+.L45:
+	mov	d0,#0
+	jeq	d15,d0,.L2
+.L46:
+	mov	d0,#1
+	jeq	d15,d0,.L3
+.L47:
+	mov	d0,#2
+	jeq	d15,d0,.L4
+.L48:
+	mov	d0,#3
+	jeq	d15,d0,.L5
+.L49:
+	mov	d0,#4
+	jeq	d15,d0,.L6
+	j	.L7
+.L2:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+.L50:
+	mov	d15,#14
+.L51:
+	st.w	[a15],d15
+.L52:
+	j	.L8
+.L3:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+.L53:
+	mov	d15,#30
+.L54:
+	st.w	[a15],d15
+.L55:
+	j	.L9
+.L4:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	ld.w	d15,[a15]
+.L56:
+	jlt.u	d15,#15,.L10
+.L57:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	movh.a	a2,#@his(g_duty)
+	lea	a2,[a2]@los(g_duty)
+	ld.w	d15,[a2]
+.L58:
+	add	d15,#-1
+	st.w	[a15],d15
+.L10:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	ld.w	d15,[a15]
+.L59:
+	jge.u	d15,#15,.L11
+.L60:
+	mov	d15,#0
+.L61:
+	st.b	[a4],d15
+.L11:
+	mov	d4,#200
+	call	Delay_Ms
+.L35:
+	j	.L12
+.L5:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	ld.w	d0,[a15]
+.L62:
+	mov	d15,#30
+.L63:
+	jge.u	d0,d15,.L13
+.L64:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	movh.a	a2,#@his(g_duty)
+	lea	a2,[a2]@los(g_duty)
+	ld.w	d15,[a2]
+.L65:
+	add	d15,#1
+	st.w	[a15],d15
+.L13:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	ld.w	d0,[a15]
+.L66:
+	mov	d15,#30
+.L67:
+	jlt.u	d0,d15,.L14
+.L68:
+	mov	d15,#1
+.L69:
+	st.b	[a4],d15
+.L14:
+	mov	d4,#200
+	call	Delay_Ms
+.L36:
+	j	.L15
+.L6:
+	j	.L16
+.L7:
+	j	.L17
+.L17:
+.L16:
+.L15:
+.L12:
+.L9:
+.L8:
+	movh.a	a15,#@his(g_duty)
+	lea	a15,[a15]@los(g_duty)
+	ld.w	d4,[a15]
+	call	Set_Duty_Door
+.L70:
+	ret
+.L31:
+	
+__Control_Door_function_end:
+	.size	Control_Door,__Control_Door_function_end-Control_Door
+.L28:
+	; End of function
+	
+	.sdecl	'.data.Side_Door.g_duty',data,cluster('g_duty')
+	.sect	'.data.Side_Door.g_duty'
+	.global	g_duty
+	.align	2
+g_duty:	.type	object
+	.size	g_duty,4
+	.word	30
+	.calls	'Control_Door','Delay_Ms'
+	.calls	'Control_Door','Set_Duty_Door'
+	.extern	Set_Duty_Door
+	.extern	Delay_Ms
+	.calls	'Control_Door','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L21:
+	.word	372
+	.half	3
+	.word	.L22
+	.byte	4
+.L20:
+	.byte	1
+	.byte	'../includes/application/Side_Door.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\Downloads\\AutoDoor-main (1)\\AutoDoor-main\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L23
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L32:
+	.byte	3
+	.word	212
+.L34:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'Set_Duty_Door',0,1,10,6,1,1,1,1,5
+	.byte	'n',0,1,10,27
+	.word	234
+	.byte	0,4
+	.byte	'Delay_Ms',0,2,15,6,1,1,1,1,5
+	.byte	'millis',0,2,15,22
+	.word	234
+	.byte	0,6,1,3
+	.word	321
+	.byte	7
+	.byte	'__codeptr',0,3,1,1
+	.word	323
+	.byte	7
+	.byte	'uint8',0,4,108,29
+	.word	212
+	.byte	7
+	.byte	'uint32',0,4,116,29
+	.word	234
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L22:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,15,0,73,19,0,0,4,46,1,3,8,58
+	.byte	15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,21,0,54,15,0,0,7,22
+	.byte	0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L23:
+	.word	.L38-.L37
+.L37:
+	.half	3
+	.word	.L40-.L39
+.L39:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\includes\\\\general',0
+	.byte	'C:\\\\Users\\\\user\\\\Downloads\\\\AutoDoor-main (1)\\\\AutoDoor-main\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	0
+	.byte	'Servo.h',0,1,0,0
+	.byte	'Delay.h',0,1,0,0
+	.byte	'../includes/application/Side_Door.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0,0
+.L40:
+.L38:
+	.sdecl	'.debug_info',debug,cluster('Control_Door')
+	.sect	'.debug_info'
+.L24:
+	.word	278
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'../includes/application/Side_Door.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\Downloads\\AutoDoor-main (1)\\AutoDoor-main\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L20
+	.byte	3
+	.byte	'Control_Door',0,1,26,6,1,1,1
+	.word	.L19,.L31,.L18
+	.byte	4
+	.byte	'state',0,1,26,26
+	.word	.L32,.L33
+	.byte	5
+	.word	.L19,.L31
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Control_Door')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Control_Door')
+	.sect	'.debug_line'
+.L26:
+	.word	.L42-.L41
+.L41:
+	.half	3
+	.word	.L44-.L43
+.L43:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../includes/application/Side_Door.c',0,0,0,0,0
+.L44:
+	.byte	5,12,7,0,5,2
+	.word	.L19
+	.byte	3,26,1,5,10,9
+	.half	.L45-.L19
+	.byte	3,1,1,9
+	.half	.L46-.L45
+	.byte	3,3,1,9
+	.half	.L47-.L46
+	.byte	3,3,1,9
+	.half	.L48-.L47
+	.byte	3,9,1,9
+	.half	.L49-.L48
+	.byte	3,9,1,5,9,9
+	.half	.L2-.L49
+	.byte	3,105,1,5,16,9
+	.half	.L50-.L2
+	.byte	1,5,15,9
+	.half	.L51-.L50
+	.byte	1,5,9,9
+	.half	.L52-.L51
+	.byte	3,1,1,9
+	.half	.L3-.L52
+	.byte	3,2,1,5,16,9
+	.half	.L53-.L3
+	.byte	1,5,15,9
+	.half	.L54-.L53
+	.byte	1,5,9,9
+	.half	.L55-.L54
+	.byte	3,1,1,5,13,9
+	.half	.L4-.L55
+	.byte	3,2,1,5,9,9
+	.half	.L56-.L4
+	.byte	1,5,13,7,9
+	.half	.L57-.L56
+	.byte	3,1,1,5,20,9
+	.half	.L58-.L57
+	.byte	1,5,13,9
+	.half	.L10-.L58
+	.byte	3,2,1,5,9,9
+	.half	.L59-.L10
+	.byte	1,5,22,7,9
+	.half	.L60-.L59
+	.byte	3,1,1,5,20,9
+	.half	.L61-.L60
+	.byte	1,5,18,9
+	.half	.L11-.L61
+	.byte	3,2,1,5,9,9
+	.half	.L35-.L11
+	.byte	3,1,1,5,13,9
+	.half	.L5-.L35
+	.byte	3,2,1,5,22,9
+	.half	.L62-.L5
+	.byte	1,5,9,9
+	.half	.L63-.L62
+	.byte	1,5,13,7,9
+	.half	.L64-.L63
+	.byte	3,1,1,5,20,9
+	.half	.L65-.L64
+	.byte	1,5,13,9
+	.half	.L13-.L65
+	.byte	3,2,1,5,23,9
+	.half	.L66-.L13
+	.byte	1,5,9,9
+	.half	.L67-.L66
+	.byte	1,5,22,7,9
+	.half	.L68-.L67
+	.byte	3,1,1,5,20,9
+	.half	.L69-.L68
+	.byte	1,5,18,9
+	.half	.L14-.L69
+	.byte	3,2,1,5,9,9
+	.half	.L36-.L14
+	.byte	3,1,1,9
+	.half	.L6-.L36
+	.byte	3,2,1,9
+	.half	.L7-.L6
+	.byte	3,2,1,5,19,9
+	.half	.L8-.L7
+	.byte	3,2,1,5,1,9
+	.half	.L70-.L8
+	.byte	3,1,1,7,9
+	.half	.L28-.L70
+	.byte	0,1,1
+.L42:
+	.sdecl	'.debug_ranges',debug,cluster('Control_Door')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L19,0,.L28-.L19,0,0
+	.sdecl	'.debug_info',debug,cluster('g_duty')
+	.sect	'.debug_info'
+.L29:
+	.word	232
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'../includes/application/Side_Door.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\Downloads\\AutoDoor-main (1)\\AutoDoor-main\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L20
+	.byte	3
+	.byte	'g_duty',0,3,21,8
+	.word	.L34
+	.byte	1,5,3
+	.word	g_duty
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_duty')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Control_Door')
+	.sect	'.debug_loc'
+.L18:
+	.word	-1,.L19,0,.L31-.L19
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L33:
+	.word	-1,.L19,0,.L35-.L19
+	.half	1
+	.byte	100
+	.word	.L5-.L19,.L36-.L19
+	.half	1
+	.byte	100
+	.word	.L6-.L19,.L8-.L19
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L71:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Control_Door')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L71,.L19,.L31-.L19
+	; Module end
