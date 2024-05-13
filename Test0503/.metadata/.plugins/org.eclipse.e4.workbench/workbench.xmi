@@ -10,6 +10,7 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1715565206413"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_k-QaoRDLEe-M0aKlgGEOwA" selectedElement="_k-QaohDLEe-M0aKlgGEOwA" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_k-QaohDLEe-M0aKlgGEOwA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_lF6h0BDLEe-M0aKlgGEOwA">
         <children xsi:type="advanced:Perspective" xmi:id="_lF6h0BDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildmanager.perspective.c" selectedElement="_lF6h0RDLEe-M0aKlgGEOwA" label="C/C++" iconURI="platform:/plugin/com.infineon.aurix.buildsystem/resources/assets/c_pers.gif">
@@ -32,9 +33,8 @@
           <tags>persp.actionSet:com.ifx.ide.activeProject.build</tags>
           <tags>persp.newWizSC:com.infineon.aurix.buildsystem.managed.wizard.new</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_lF6h0RDLEe-M0aKlgGEOwA" selectedElement="_lF6h0hDLEe-M0aKlgGEOwA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_lF6h0hDLEe-M0aKlgGEOwA" containerData="2500" selectedElement="_lF6h0xDLEe-M0aKlgGEOwA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_lF6h0hDLEe-M0aKlgGEOwA" containerData="2500" selectedElement="_lF6h1hDLEe-M0aKlgGEOwA">
               <children xsi:type="basic:PartStack" xmi:id="_lF6h0xDLEe-M0aKlgGEOwA" elementId="Left" containerData="4000" selectedElement="_lF6h1BDLEe-M0aKlgGEOwA">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_lF6h1BDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildsystem.view.AURIXCView" ref="_lFwJwBDLEe-M0aKlgGEOwA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Infineon</tags>
@@ -45,6 +45,7 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_lF6h1hDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildsystem.quicklinks.QuickLinksViewMStack" containerData="6000" selectedElement="_lF6h1xDLEe-M0aKlgGEOwA">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_lF6h1xDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildsystem.quicklinks.QuickLinksView" ref="_lF5TsBDLEe-M0aKlgGEOwA" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Infineon</tags>
@@ -113,11 +114,9 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_lFwJwBDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildsystem.view.AURIXCView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="C/C++ Projects" iconURI="platform:/plugin/com.infineon.aurix.buildsystem/resources/assets/Icon_AURIX_16px_02.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.infineon.aurix.buildsystem.ui.AURIXCView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.infineon.aurix.buildsystem"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view horizontalPosition=&quot;0&quot; verticalPosition=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view horizontalPosition=&quot;0&quot; verticalPosition=&quot;0&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;C:\Users\user\Desktop\AutoDoor-main&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Infineon</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_lJdlEBDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildsystem.view.AURIXCView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -178,6 +177,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Infineon</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_lP_D0BDLEe-M0aKlgGEOwA" elementId="com.infineon.aurix.buildsystem.quicklinks.QuickLinksView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -191,7 +192,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lBMZ4BDLEe-M0aKlgGEOwA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_lBSggBDLEe-M0aKlgGEOwA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_kT0-ZRDLEe-M0aKlgGEOwA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yHuq8BDOEe-naPtG8MDc2Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kT0-ZRDLEe-M0aKlgGEOwA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lBMZ4RDLEe-M0aKlgGEOwA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -216,7 +217,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lBNA9hDLEe-M0aKlgGEOwA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_lBTuoBDLEe-M0aKlgGEOwA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kT0-BxDLEe-M0aKlgGEOwA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yHzjcBDOEe-naPtG8MDc2Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kT0-BxDLEe-M0aKlgGEOwA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lBNA9xDLEe-M0aKlgGEOwA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1700,7 +1701,7 @@
   <addons xmi:id="_kTQV5hDLEe-M0aKlgGEOwA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_kTQV5xDLEe-M0aKlgGEOwA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_kTat4BDLEe-M0aKlgGEOwA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_xzPBoBDOEe-naPtG8MDc2Q" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_kTxTMBDLEe-M0aKlgGEOwA" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_kTxTMRDLEe-M0aKlgGEOwA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

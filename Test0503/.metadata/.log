@@ -202,3 +202,6 @@ Caused by: java.net.MalformedURLException: no protocol:
 	at java.base/java.net.URL.<init>(URL.java:516)
 	at com.google.api.client.http.GenericUrl.parseURL(GenericUrl.java:677)
 	... 13 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-13 11:17:11.888
+!MESSAGE Indexed 'AutoDoor' (107 sources, 520 headers) in 32.6 sec: 113,083 declarations; 76,176 references; 10 unresolved inclusions; 2,891 syntax errors; 5,528 unresolved names (2.8%)
